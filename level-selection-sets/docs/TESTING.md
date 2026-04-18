@@ -1,16 +1,30 @@
 # Testing — Level Selection Sets
 
-This guide is for **publishers** and **QA** validating the plugin before (or after) a Fab release. For a short checklist, see [`VERIFICATION.md`](VERIFICATION.md). For Unreal basics (C++ project, Plugins folder, first build), see [`../../docs/unreal-plugin-testing-beginner.md`](../../docs/unreal-plugin-testing-beginner.md).
+This guide is for **publishers** and **QA** validating the plugin before (or after) a Fab release. For a short checklist, see [VERIFICATION.md](VERIFICATION.md). For Unreal basics (C++ project, Plugins folder, first build), see [unreal-plugin-testing-beginner.md](../../docs/unreal-plugin-testing-beginner.md).
+
+### Where is the “plugin”? (naming)
+
+- There is **no** folder named `plugin`. Unreal’s convention is:
+  - Your **game project** has a folder called **`Plugins`** (plural, capital P is common).
+  - Inside that, each product is its **own subfolder** — for this product that folder is named **`LevelSelectionSets`** (not “LevelSelectionSetsPlugin”).
+- **In this monorepo**, that folder is here (relative to repo root):
+
+  `level-selection-sets/LevelSelectionSets/`
+
+  You should see at least **`LevelSelectionSets.uplugin`** and a **`Source/`** directory. That entire **`LevelSelectionSets`** directory is what you copy into a test project.
+- **In the Unreal Editor**, you do not browse the disk for “plugin”. Enable it under **Edit → Plugins**, then search for **Level Selection Sets**. The **Window → Level Editor → Level Selection Sets** entry is the tool UI after it is enabled.
 
 ---
 
 ## 1. What “passing” means
 
-| Layer | Goal |
-|--------|------|
-| **Compile** | The plugin module builds for **Development Editor** with no errors. |
-| **Load** | Editor opens with the plugin enabled; **Output Log** has no red errors from `LevelSelectionSetsEditor`. |
-| **Function** | Nomad tab works: save, recall, rename, delete; data survives **level save** and **editor restart**. |
+
+| Layer        | Goal                                                                                                    |
+| ------------ | ------------------------------------------------------------------------------------------------------- |
+| **Compile**  | The plugin module builds for **Development Editor** with no errors.                                     |
+| **Load**     | Editor opens with the plugin enabled; **Output Log** has no red errors from `LevelSelectionSetsEditor`. |
+| **Function** | Nomad tab works: save, recall, rename, delete; data survives **level save** and **editor restart**.     |
+
 
 Always test the **same engine minor line** as the package (e.g. a **5.7.x** editor for `LevelSelectionSets-UE5.7-Win64`). Do not mix 5.4 plugin with 5.7 editor.
 
@@ -29,10 +43,11 @@ Always test the **same engine minor line** as the package (e.g. a **5.7.x** edit
 
 1. **Create** a new project from a template (e.g. **Third Person**) as **C++**, not Blueprint-only.
 2. **Close** the editor.
-3. Under the project root, ensure **`Plugins`** exists. Copy the entire **`LevelSelectionSets`** folder (containing `LevelSelectionSets.uplugin` and `Source/`) into:
-   - `YourProject/Plugins/LevelSelectionSets/`
+3. Under the **game project** folder (next to `YourProject.uproject`), create **`Plugins`** if it does not exist. Copy the entire **`LevelSelectionSets`** folder from this repo (`level-selection-sets/LevelSelectionSets/`) so that you have:
+   - `YourProject/Plugins/LevelSelectionSets/LevelSelectionSets.uplugin`
+   - `YourProject/Plugins/LevelSelectionSets/Source/`
 4. **Right‑click** `YourProject.uproject` → **Generate Visual Studio project files**.
-5. Open **`.sln`**, set configuration to **Development Editor**, **Build** the solution.
+5. Open **`YourProject.sln`**, set configuration to **Development Editor**, **Build** the solution.
 6. **Launch** the editor (from VS or by opening the `.uproject`).
 7. **Edit → Plugins** → search **Level Selection Sets** → **Enable** → **Restart** if prompted.
 
@@ -101,7 +116,7 @@ Perform these in order on an open **level** with placeable actors (empty level i
 1. **File → New Level** (or add a second map) and save it as e.g. `L_TestSecond`.
 2. Open **Level Selection Sets**; confirm sets from the **first** level do not incorrectly appear, or behavior matches design (data is per persistent level).
 
-**Pass:** No cross-level corruption; expectations match [`USER_GUIDE.md`](USER_GUIDE.md).
+**Pass:** No cross-level corruption; expectations match [USER_GUIDE.md](USER_GUIDE.md).
 
 ### 5.8 Undo (optional)
 
@@ -121,15 +136,15 @@ Perform these in order on an open **level** with placeable actors (empty level i
 
 ## 7. Record results
 
-- Fill a row in [`ENGINE_TEST_MATRIX.md`](ENGINE_TEST_MATRIX.md) for this engine build.
-- Keep the short checklist in [`VERIFICATION.md`](VERIFICATION.md) for repeat runs before each upload.
+- Fill a row in [ENGINE_TEST_MATRIX.md](ENGINE_TEST_MATRIX.md) for this engine build.
+- Keep the short checklist in [VERIFICATION.md](VERIFICATION.md) for repeat runs before each upload.
 
 ---
 
 ## 8. If something fails
 
-- **Compile errors:** Engine version mismatch vs. `.uplugin`, or incomplete VS workload—see [`INSTALLATION.md`](INSTALLATION.md) and [`FAQ.md`](FAQ.md).
+- **Compile errors:** Engine version mismatch vs. `.uplugin`, or incomplete VS workload—see [INSTALLATION.md](INSTALLATION.md) and [FAQ.md](FAQ.md).
 - **Plugin missing in list:** Wrong `Plugins/` layout or missing `.uplugin`.
 - **Crash on enable:** Binary built with a different engine hotfix than the editor—rebuild with **RunUAT** for that exact line.
 
-Support: [`SUPPORT.md`](SUPPORT.md).
+Support: [SUPPORT.md](SUPPORT.md).
