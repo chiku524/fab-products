@@ -4,31 +4,39 @@ Unreal Engine editor plugin for [Fab](https://www.fab.com/) — **WorldBuilder A
 
 **Positioning:** “Optimization for builders, not just engineers.”
 
-This folder is one **product** inside the [parent monorepo](../README.md).
+This folder is one **product** inside the [fab-products monorepo](../README.md).
 
-## Contents
+## Listing-ready package
 
-| Path | Description |
-|------|-------------|
-| [`docs/build-brief.md`](docs/build-brief.md) | V1 scope, features, UI, milestones, QA |
-| [`docs/product-package.md`](docs/product-package.md) | Naming, pricing, listing copy, media, seller deliverables |
-| [`WorldBuilderAuditConvert/`](WorldBuilderAuditConvert/) | Fab-oriented plugin scaffold (C++ editor module) |
+The following are included for **Fab listing and customer delivery**:
+
+| Deliverable | Location |
+|-------------|----------|
+| Master doc index | [`DOCUMENTATION.md`](DOCUMENTATION.md) |
+| Installation | [`docs/INSTALLATION.md`](docs/INSTALLATION.md) |
+| User guide | [`docs/USER_GUIDE.md`](docs/USER_GUIDE.md) |
+| FAQ | [`docs/FAQ.md`](docs/FAQ.md) |
+| Support | [`docs/SUPPORT.md`](docs/SUPPORT.md) |
+| Listing copy (paste into Fab) | [`docs/FAB_LISTING_COPY.md`](docs/FAB_LISTING_COPY.md) |
+| Media checklist | [`docs/MEDIA.md`](docs/MEDIA.md) |
+| Packaging / RunUAT | [`docs/PACKAGING_FOR_FAB.md`](docs/PACKAGING_FOR_FAB.md) |
+| Submission checklist | [`docs/SUBMISSION_CHECKLIST.md`](docs/SUBMISSION_CHECKLIST.md) |
+| License | [`LICENSE`](LICENSE) |
+| Changelog | [`CHANGELOG.md`](CHANGELOG.md) |
+| Example project (separate host) | [`example-project/README.md`](example-project/README.md) |
+| Plugin source + descriptor | [`WorldBuilderAuditConvert/`](WorldBuilderAuditConvert/) |
 | Shared Fab rules | [`../docs/fab-technical-reference.md`](../docs/fab-technical-reference.md) |
 
-Ship **one packaged plugin zip per supported engine version** for Fab submission.
+**Before you submit:** Replace `[PUBLISHER_NAME]` and `[SUPPORT_EMAIL]` everywhere (including `.uplugin`, `LICENSE`, `SUPPORT.md`, and source headers). Set **`DocsURL`** / **`SupportURL`** in `WorldBuilderAuditConvert.uplugin` to your real URLs. After Fab publishes your product page, add **`FabURL`** to the `.uplugin` per Fab rules.
 
-## Supported targets (planned)
+**Internal specs (optional for buyers):** [`docs/build-brief.md`](docs/build-brief.md), [`docs/product-package.md`](docs/product-package.md).
 
-- **Engine versions:** UE 5.4, 5.5, 5.6  
-- **Editor platform (V1):** Windows (Win64)  
-- **Module:** `WorldBuilderAuditConvertEditor` (Editor)
+## Supported targets (v1)
 
-## Using the plugin in a project
+- **Engine versions:** UE 5.4, 5.5, 5.6 — **one packaged zip per engine line** for Fab.  
+- **Editor:** Windows 64-bit (Win64).  
+- **Module:** `WorldBuilderAuditConvertEditor`.
 
-1. Copy the `WorldBuilderAuditConvert` folder into your project’s `Plugins/` directory (or symlink from this monorepo).
-2. Regenerate project files and build the editor.
-3. After Fab assigns a product URL, add a top-level **`FabURL`** field to `WorldBuilderAuditConvert.uplugin` per [Fab technical requirements](https://support.fab.com/s/article/FAB-TECHNICAL-REQUIREMENTS). The scaffold omits this until you have an approved listing.
+## Quick install (customers)
 
-## Changelog
-
-See [`CHANGELOG.md`](CHANGELOG.md).
+See [`docs/INSTALLATION.md`](docs/INSTALLATION.md): copy `WorldBuilderAuditConvert` into the project `Plugins/` folder, regenerate, build editor.

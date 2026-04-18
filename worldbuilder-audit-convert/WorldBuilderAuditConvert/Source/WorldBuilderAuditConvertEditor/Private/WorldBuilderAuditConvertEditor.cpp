@@ -1,4 +1,4 @@
-// Copyright Your Name / Your Company. All Rights Reserved.
+// Copyright (c) [PUBLISHER_NAME]. All Rights Reserved.
 
 #include "WorldBuilderAuditConvertEditor.h"
 

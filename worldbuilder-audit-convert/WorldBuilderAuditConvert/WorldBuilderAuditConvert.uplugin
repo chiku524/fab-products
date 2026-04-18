@@ -5,14 +5,14 @@
 	"FriendlyName": "WorldBuilder Audit & Convert",
 	"Description": "Editor plugin: audit levels for world-building inefficiencies and convert repeated static mesh actors toward ISM/HISM setups with presets and preview.",
 	"Category": "Editor",
-	"CreatedBy": "",
+	"CreatedBy": "[PUBLISHER_NAME]",
 	"CreatedByURL": "",
 	"DocsURL": "",
 	"MarketplaceURL": "",
 	"SupportURL": "",
 	"EngineVersion": "5.4.0",
 	"CanContainContent": false,
-	"IsBetaVersion": true,
+	"IsBetaVersion": false,
 	"Installed": false,
 	"Modules": [
 		{
