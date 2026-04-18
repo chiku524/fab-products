@@ -1,6 +1,8 @@
-# FAB plugin research notes
+# Fab technical reference (shared)
 
-Primary sources and requirements for a Fab-compliant Unreal Engine code plugin.
+This document applies to **all** Fab code-plugin products in this repository. Product-specific specs live under each product directory (for example [`worldbuilder-audit-convert/docs/`](../worldbuilder-audit-convert/docs/)).
+
+Primary sources and requirements for a Fab-compliant Unreal Engine code plugin:
 
 ## Source 1: Fab Technical Requirements
 
