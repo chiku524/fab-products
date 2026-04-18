@@ -5,13 +5,11 @@ This guide is for **publishers** and **QA** validating the plugin before (or aft
 ### Where is the “plugin”? (naming)
 
 - There is **no** folder named `plugin`. Unreal’s convention is:
-  - Your **game project** has a folder called **`Plugins`** (plural, capital P is common).
-  - Inside that, each product is its **own subfolder** — for this product that folder is named **`LevelSelectionSets`** (not “LevelSelectionSetsPlugin”).
+  - Your **game project** has a folder called `**Plugins`** (plural, capital P is common).
+  - Inside that, each product is its **own subfolder** — for this product that folder is named `**LevelSelectionSets`** (not “LevelSelectionSetsPlugin”).
 - **In this monorepo**, that folder is here (relative to repo root):
-
-  `level-selection-sets/LevelSelectionSets/`
-
-  You should see at least **`LevelSelectionSets.uplugin`** and a **`Source/`** directory. That entire **`LevelSelectionSets`** directory is what you copy into a test project.
+`level-selection-sets/LevelSelectionSets/`
+You should see at least `**LevelSelectionSets.uplugin`** and a `**Source/`** directory. That entire `**LevelSelectionSets**` directory is what you copy into a test project.
 - **In the Unreal Editor**, you do not browse the disk for “plugin”. Enable it under **Edit → Plugins**, then search for **Level Selection Sets**. The **Window → Level Editor → Level Selection Sets** entry is the tool UI after it is enabled.
 
 ---
@@ -46,7 +44,7 @@ Always test the **same engine minor line** as the package (e.g. a **5.7.x** edit
 3. Under the **game project** folder (next to `YourProject.uproject`), create **`Plugins`** if it does not exist. Copy the entire **`LevelSelectionSets`** folder from this repo (`level-selection-sets/LevelSelectionSets/`) so that you have:
    - `YourProject/Plugins/LevelSelectionSets/LevelSelectionSets.uplugin`
    - `YourProject/Plugins/LevelSelectionSets/Source/`
-4. **Right‑click** `YourProject.uproject` → **Generate Visual Studio project files**.
+4. **Regenerate Visual Studio project files:** in **Windows File Explorer**, go to the real folder on disk that contains **`YourProject.uproject`**, then **right‑click the `.uproject` file** → **Generate Visual Studio project files**. (Cursor/VS Code’s sidebar usually does **not** show this; use Explorer or see [INSTALLATION.md](INSTALLATION.md) step 4 for **Windows 11** and **command-line** alternatives.)
 5. Open **`YourProject.sln`**, set configuration to **Development Editor**, **Build** the solution.
 6. **Launch** the editor (from VS or by opening the `.uproject`).
 7. **Edit → Plugins** → search **Level Selection Sets** → **Enable** → **Restart** if prompted.
@@ -107,7 +105,7 @@ Perform these in order on an open **level** with placeable actors (empty level i
 2. **File → Save Current** (or save the level) so the map asset is written.
 3. **Close** the editor completely.
 4. Reopen the **same project** and **same level**.
-5. Open **Level Selection Sets** and confirm **`PersistTest`** is still listed; **Recall** works.
+5. Open **Level Selection Sets** and confirm `**PersistTest`** is still listed; **Recall** works.
 
 **Pass:** Sets survive restart. **Fail:** If sets vanish, check that the level was saved and that the data actor was not in a transient-only session.
 

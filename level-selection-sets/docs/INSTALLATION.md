@@ -11,10 +11,17 @@
 1. **Download** the plugin zip for your engine version from Fab (do not mix engine versions).
 2. **Extract** the archive. You should see a folder named `LevelSelectionSets` containing `LevelSelectionSets.uplugin` and a `Source` directory.
 3. **Copy** `LevelSelectionSets` into your project’s `Plugins` folder:
-   - `YourProject/Plugins/LevelSelectionSets/`
-   - Create `Plugins` at the project root if it does not exist.
-4. **Regenerate** project files:
-   - Right-click `YourProject.uproject` → **Generate Visual Studio project files** (Windows), or use your usual workflow.
+  - `YourProject/Plugins/LevelSelectionSets/`
+  - Create `Plugins` at the project root if it does not exist.
+4. **Regenerate** project files (see **note** below if you do not see this menu):
+   - Open **Windows File Explorer** and go to the folder that contains **`YourProject.uproject`** (the real path on disk, e.g. under **Documents/Unreal Projects/**).
+   - **Right‑click the `.uproject` file** (the file icon, not the folder) → **Generate Visual Studio project files**.
+   - On **Windows 11**, if that line is missing, open the **full** context menu (**Show more options** / Shift+F10, or Shift+right‑click) and look again—shell extensions sometimes only appear on the classic menu.
+   - **Alternative (command line):** from PowerShell or CMD, run **`UnrealVersionSelector.exe`** with your engine and project path (replace the engine folder with yours):
+
+     `"C:\Program Files\Epic Games\UE_5.7\Engine\Binaries\Win64\UnrealVersionSelector.exe" /projectfiles "C:\full\path\to\YourProject.uproject"`
+
+   Using **VS Code / Cursor’s** file tree to right‑click often **does not** show Epic’s entry; use Explorer or the command above.
 5. **Build** the editor target (Development Editor) so the plugin module compiles.
 6. **Launch** the Unreal Editor and open your project.
 7. Confirm the plugin is enabled: **Edit → Plugins → Level Selection Sets** (enable if prompted) and restart the editor if asked.

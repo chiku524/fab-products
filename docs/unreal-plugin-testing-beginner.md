@@ -47,11 +47,19 @@ You now have `FabPluginSmokeTest.uproject` and a `Source/` folder.
 
 ## 4. Generate project files and build (Windows)
 
-1. Right‑click **`FabPluginSmokeTest.uproject`** → **Generate Visual Studio project files**.  
+1. In **Windows File Explorer**, open the folder that contains **`FabPluginSmokeTest.uproject`** (the real folder on disk). **Right‑click the `.uproject` file** → **Generate Visual Studio project files**.  
+   - **Cursor / VS Code:** the file tree’s right‑click menu usually **does not** include Epic’s “Generate Visual Studio project files”. Use Explorer, or the command in the note below.  
+   - **Windows 11:** if the item is missing, use **Show more options** (or Shift+right‑click) to open the **classic** context menu where Epic’s shell extension appears.  
 2. Open **`FabPluginSmokeTest.sln`** in Visual Studio.  
 3. In the configuration dropdown, choose **Development Editor** and your game as startup project if needed.  
 4. **Build** → **Build Solution** (or F7).  
 5. Wait until it finishes with **no errors**.
+
+**Note — no “Generate Visual Studio project files” on the menu?** Run this in **CMD or PowerShell** (adjust the engine path to match your install, e.g. `UE_5.4`, and the full path to your `.uproject`):
+
+```bat
+"C:\Program Files\Epic Games\UE_5.7\Engine\Binaries\Win64\UnrealVersionSelector.exe" /projectfiles "C:\full\path\to\FabPluginSmokeTest.uproject"
+```
 
 If build fails, open **Output** in Visual Studio and read the first error (often wrong engine version or missing VS workload).
 
