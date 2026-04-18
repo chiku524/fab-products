@@ -11,6 +11,7 @@ This folder is one **product** inside the [fab-products monorepo](../README.md).
 | Deliverable | Location |
 |-------------|----------|
 | Master doc index | [`DOCUMENTATION.md`](DOCUMENTATION.md) |
+| Testing (integrity & optional apply) | [`docs/TESTING.md`](docs/TESTING.md) |
 | Installation / how to use the kit | [`docs/INSTALLATION.md`](docs/INSTALLATION.md) |
 | User guide (how to apply each chapter) | [`docs/USER_GUIDE.md`](docs/USER_GUIDE.md) |
 | Architecture primer (UE-specific) | [`docs/ARCHITECTURE-UNREAL.md`](docs/ARCHITECTURE-UNREAL.md) |

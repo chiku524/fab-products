@@ -4,6 +4,7 @@ Primary index for the Fab download. Link this file from the listing’s technica
 
 | Document | Audience | Description |
 |----------|----------|-------------|
+| [TESTING.md](docs/TESTING.md) | Publisher / QA | Validate zip integrity, links, and optional apply-to-project check |
 | [INSTALLATION.md](docs/INSTALLATION.md) | Customers | How to unpack and apply the kit to a project |
 | [USER_GUIDE.md](docs/USER_GUIDE.md) | Customers | Walkthrough of each major section |
 | [ARCHITECTURE-UNREAL.md](docs/ARCHITECTURE-UNREAL.md) | Customers | Modules, subsystems, lifecycle mental model |

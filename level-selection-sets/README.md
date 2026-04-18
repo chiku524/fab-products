@@ -21,7 +21,8 @@ The following are included for **Fab listing and customer delivery**:
 | Media checklist | [`docs/MEDIA.md`](docs/MEDIA.md) |
 | Packaging / RunUAT | [`docs/PACKAGING_FOR_FAB.md`](docs/PACKAGING_FOR_FAB.md) |
 | Packaging scripts | [`scripts/README.md`](scripts/README.md) |
-| QA checklist | [`docs/VERIFICATION.md`](docs/VERIFICATION.md) |
+| Testing (detailed) | [`docs/TESTING.md`](docs/TESTING.md) |
+| QA checklist (short) | [`docs/VERIFICATION.md`](docs/VERIFICATION.md) |
 | Engine test matrix | [`docs/ENGINE_TEST_MATRIX.md`](docs/ENGINE_TEST_MATRIX.md) |
 | Submission checklist | [`docs/SUBMISSION_CHECKLIST.md`](docs/SUBMISSION_CHECKLIST.md) |
 | License | [`LICENSE`](LICENSE) |

@@ -20,6 +20,7 @@ The following are included for **Fab listing and customer delivery**:
 | Listing copy (paste into Fab) | [`docs/FAB_LISTING_COPY.md`](docs/FAB_LISTING_COPY.md) |
 | Media checklist | [`docs/MEDIA.md`](docs/MEDIA.md) |
 | Packaging / RunUAT | [`docs/PACKAGING_FOR_FAB.md`](docs/PACKAGING_FOR_FAB.md) |
+| Testing | [`docs/TESTING.md`](docs/TESTING.md) |
 | Packaging script | [`scripts/README.md`](scripts/README.md) |
 | Submission checklist | [`docs/SUBMISSION_CHECKLIST.md`](docs/SUBMISSION_CHECKLIST.md) |
 | License | [`LICENSE`](LICENSE) |

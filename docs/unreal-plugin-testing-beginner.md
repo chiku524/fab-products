@@ -85,16 +85,22 @@ If the editor opens and the plugin shows as enabled, you’ve passed the **harde
 3. **Window → Level Editor → Level Selection Sets** (nomad tab).  
 4. Type a name → **Save** → clear selection → **Recall**.  
 
-More detail: [`level-selection-sets/docs/VERIFICATION.md`](../level-selection-sets/docs/VERIFICATION.md).
+Full publisher QA: [`level-selection-sets/docs/TESTING.md`](../level-selection-sets/docs/TESTING.md) (short checklist: [`VERIFICATION.md`](../level-selection-sets/docs/VERIFICATION.md)).
 
 ### WorldBuilder Audit & Convert
 
 1. Confirm the plugin **loads** (Output Log clean, plugin enabled).  
 2. When the product’s editor UI is fully implemented, follow [`worldbuilder-audit-convert/docs/USER_GUIDE.md`](../worldbuilder-audit-convert/docs/USER_GUIDE.md) for scans and previews.
 
+Step-by-step tests: [`worldbuilder-audit-convert/docs/TESTING.md`](../worldbuilder-audit-convert/docs/TESTING.md).
+
 ### Unreal Game Dev Starter Kit
 
-**No Unreal install required.** Unzip the product and open `DOCUMENTATION.md`. “Testing” = follow [`unreal-game-dev-starter-kit/docs/INSTALLATION.md`](../unreal-game-dev-starter-kit/docs/INSTALLATION.md) and verify files open.
+**No Unreal install required.** Unzip the product and open `DOCUMENTATION.md`. Integrity and apply tests: [`unreal-game-dev-starter-kit/docs/TESTING.md`](../unreal-game-dev-starter-kit/docs/TESTING.md). Installation walkthrough: [`unreal-game-dev-starter-kit/docs/INSTALLATION.md`](../unreal-game-dev-starter-kit/docs/INSTALLATION.md).
+
+### Bundle (all products)
+
+If you ship the combined bundle, see [`immersive-labs-ue-bundle/docs/TESTING.md`](../immersive-labs-ue-bundle/docs/TESTING.md).
 
 ---
 

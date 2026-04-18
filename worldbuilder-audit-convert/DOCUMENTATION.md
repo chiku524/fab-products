@@ -8,6 +8,7 @@ Use this file as the **primary documentation index** included with the Fab downl
 | [USER_GUIDE.md](docs/USER_GUIDE.md) | Customers | Workflows, presets, preview, export |
 | [FAQ.md](docs/FAQ.md) | Customers | Common questions and troubleshooting |
 | [SUPPORT.md](docs/SUPPORT.md) | Customers | How to get help, supported versions |
+| [TESTING.md](docs/TESTING.md) | Publisher / QA | Smoke and functional test steps (aligned with current feature set) |
 | [PACKAGING_FOR_FAB.md](docs/PACKAGING_FOR_FAB.md) | Publisher | Build zipped plugins for each engine version |
 | [scripts/README.md](scripts/README.md) | Publisher | `RunUAT` packaging script |
 | [FAB_LISTING_COPY.md](docs/FAB_LISTING_COPY.md) | Publisher | Copy for Fab listing fields |

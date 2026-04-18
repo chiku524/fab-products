@@ -17,6 +17,7 @@ Monorepo for [Fab](https://www.fab.com/) listings: specifications, documentation
 |------|-------------|
 | [`docs/fab-technical-reference.md`](docs/fab-technical-reference.md) | Fab technical requirements, publishing workflow, and links (applies to all code plugins here). |
 | [`docs/unreal-plugin-testing-beginner.md`](docs/unreal-plugin-testing-beginner.md) | **Start here if you’re new to UE:** simple smoke-test steps for plugin products (no C++ knowledge required for testing). |
+| Per-product test guides | Each product has **`docs/TESTING.md`** (detailed steps for that deliverable). |
 | [`docs/fab-bundle-strategy.md`](docs/fab-bundle-strategy.md) | **Bundles:** multiple Fab downloadables, **minimum UE 5.4**, one plugin zip per engine minor line. |
 
 ## Repository layout

@@ -5,6 +5,7 @@
 | Role | Start here |
 |------|----------------|
 | **Publisher** (you) | [`docs/PUBLISHER_ASSEMBLY.md`](docs/PUBLISHER_ASSEMBLY.md) and [`scripts/stage-bundle.ps1`](scripts/stage-bundle.ps1) |
+| **Testing** (staging & zips) | [`docs/TESTING.md`](docs/TESTING.md) |
 | **Buyer** (post on Fab) | [`docs/BUYER_GUIDE.md`](docs/BUYER_GUIDE.md) |
 | **Fab listing text** | [`docs/FAB_LISTING_COPY.md`](docs/FAB_LISTING_COPY.md) |
 
