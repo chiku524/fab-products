@@ -9,6 +9,7 @@ Monorepo for [Fab](https://www.fab.com/) listings: specifications, documentation
 | [`worldbuilder-audit-convert/`](worldbuilder-audit-convert/) | **WorldBuilder Audit & Convert** | Editor plugin: audit levels for world-building inefficiencies; batch toward ISM/HISM with presets, preview, and reports. |
 | [`level-selection-sets/`](level-selection-sets/) | **Level Selection Sets** | Editor plugin: save named actor selection sets per level and recall them for lighting passes, prop sweeps, and batch edits. |
 | [`unreal-game-dev-starter-kit/`](unreal-game-dev-starter-kit/) | **Unreal Game Dev Starter Kit** | Documentation + templates: project structure, workflows, source control, and shipping-minded checklists for UE game projects (no engine plugin). |
+| [`immersive-labs-ue-bundle/`](immersive-labs-ue-bundle/) | **Immersive Labs UE Development Bundle** | Multi-download Fab bundle: docs + `stage-bundle.ps1` to assemble plugin zips + starter kit (**minimum UE 5.4**). |
 
 ## Shared documentation
 
@@ -42,6 +43,10 @@ fab-products/                    # clone folder name can differ
 │   ├── CHANGELOG.md
 │   ├── docs/
 │   └── templates/
+├── immersive-labs-ue-bundle/
+│   ├── README.md
+│   ├── docs/
+│   └── scripts/
 └── <future-product>/            # add new Fab products as sibling folders
 ```
 

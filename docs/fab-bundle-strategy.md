@@ -33,6 +33,10 @@ Match what your [`scripts/package-plugin.ps1`](../level-selection-sets/scripts/p
 - State clearly: **minimum UE 5.4**, separate packages per **minor** line, **Windows 64-bit editor** where applicable.
 - Link or attach the **starter kit** and **per-plugin** zips so expectations match [Fab technical requirements](fab-technical-reference.md).
 
+## Bundle implementation in this repo
+
+The **[`immersive-labs-ue-bundle/`](../immersive-labs-ue-bundle/)** folder holds **buyer/publisher docs**, **Fab listing copy** for the combined offering, and **`scripts/stage-bundle.ps1`** to zip plugin `dist/` outputs plus the starter kit into a **`staging/`** folder per engine line.
+
 ## What this doc does not decide
 
 Exact **Fab UI** for “one listing vs many” is set in the publisher portal; this file is the **engineering and packaging** contract for the monorepo.
