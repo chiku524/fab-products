@@ -52,3 +52,4 @@ Summary:
 ## See also
 
 - **[Unreal plugin testing (beginner)](unreal-plugin-testing-beginner.md)** — step-by-step smoke testing for code plugins in this repo (no C++ required for the test pass itself).
+- **[Fab bundle strategy](fab-bundle-strategy.md)** — multiple downloadables, **minimum UE 5.4**, one plugin package per engine minor line.

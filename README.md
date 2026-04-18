@@ -16,6 +16,7 @@ Monorepo for [Fab](https://www.fab.com/) listings: specifications, documentation
 |------|-------------|
 | [`docs/fab-technical-reference.md`](docs/fab-technical-reference.md) | Fab technical requirements, publishing workflow, and links (applies to all code plugins here). |
 | [`docs/unreal-plugin-testing-beginner.md`](docs/unreal-plugin-testing-beginner.md) | **Start here if you’re new to UE:** simple smoke-test steps for plugin products (no C++ knowledge required for testing). |
+| [`docs/fab-bundle-strategy.md`](docs/fab-bundle-strategy.md) | **Bundles:** multiple Fab downloadables, **minimum UE 5.4**, one plugin zip per engine minor line. |
 
 ## Repository layout
 
@@ -24,7 +25,8 @@ fab-products/                    # clone folder name can differ
 ├── README.md                    # this file
 ├── docs/
 │   ├── fab-technical-reference.md
-│   └── unreal-plugin-testing-beginner.md
+│   ├── unreal-plugin-testing-beginner.md
+│   └── fab-bundle-strategy.md
 ├── worldbuilder-audit-convert/
 │   ├── README.md
 │   ├── CHANGELOG.md
