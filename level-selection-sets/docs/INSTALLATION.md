@@ -2,7 +2,7 @@
 
 ## Requirements
 
-- **Unreal Engine:** 5.4, 5.5, or 5.6 (use the plugin package built for your exact engine minor version).
+- **Unreal Engine:** **5.4 or newer** within Unreal Engine 5.x. Use the plugin package **built for your exact engine version** (same major.minor line as your editor, e.g. 5.4.x with 5.4.x).
 - **Editor OS:** Windows 64-bit (Win64 editor). Mac/Linux editors are not validated for v1.
 - **Project:** Any game or tool project that uses the Unreal Editor.
 

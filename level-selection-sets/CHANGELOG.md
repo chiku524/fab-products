@@ -14,7 +14,7 @@ All notable changes to **Level Selection Sets** are documented here. Versioning 
 
 ### Notes
 
-- Ship **one built plugin package per supported engine version** (UE 5.4 / 5.5 / 5.6). See `docs/PACKAGING_FOR_FAB.md`.
+- Ship **one built plugin package per engine minor line** you publish (UE **5.4+**). See `docs/PACKAGING_FOR_FAB.md`.
 
 ## [Unreleased]
 

@@ -9,7 +9,7 @@ It lets you **save named actor selections** in the level editor and **recall** t
 Level designers, environment artists, lighting artists, and anyone who iterates on the same groups of actors repeatedly.
 
 **Which engine versions are supported?**  
-Unreal Engine **5.4**, **5.5**, and **5.6**. Use the download package that matches your engine version exactly.
+Unreal Engine **5.4 and newer** (5.x). The source targets **5.4+**; use the Fab download (or build) that matches **your editor’s exact version**, because C++ plugins are not interchangeable across arbitrary 5.x builds.
 
 **Mac or Linux editor?**  
 Version 1 targets **Windows (Win64)** editor only unless the listing states otherwise.

@@ -32,7 +32,7 @@ Builders who want **speed and clarity** in the editor—not another heavy optimi
 **Important**
 
 - Editor-only workflow; selections refer to level actors in the editor.  
-- Use the plugin package that matches your **exact** engine version (5.4 / 5.5 / 5.6).  
+- Use the plugin package that matches your **exact** Unreal Engine **5.4+** editor version.  
 - **Windows 64-bit editor** supported for v1 unless your listing states broader support.
 
 ## Keywords / search tags
@@ -52,7 +52,7 @@ Unreal Engine, plugin, level design, selection, outliner, editor tools, workflow
 - **Type:** Code plugin (C++ editor module)  
 - **Module:** `LevelSelectionSetsEditor`  
 - **Platforms:** Editor **Win64** (v1)  
-- **Engine compatibility:** UE 5.4, 5.5, 5.6 — **separate downloadable packages per engine version**  
+- **Engine compatibility:** UE **5.4 and newer** (5.x) — **separate downloadable packages per engine minor line** you publish (Fab buyers use the zip that matches their editor)  
 - **Dependencies:** Engine-only; does not require other marketplace plugins  
 - **Documentation:** Included (`DOCUMENTATION.md` and `docs/` in product package)  
 - **Example project:** Linked separately from the listing (not embedded in the plugin zip) — see `example-project/README.md`  

@@ -14,7 +14,7 @@ Focused and dependable: **Select → Save set → Recall** with a simple dockabl
 |-------|----------------|
 | Primary function | Persist named selection sets per level; restore selection on demand |
 | Target user | Level designer, environment artist, lighting artist, indie team |
-| Engine targets | UE 5.4, 5.5, 5.6 |
+| Engine targets | UE **5.4 and newer** (5.x); ship builds per minor line you support |
 | Platform (V1) | Windows editor |
 | Time-to-value | First useful set saved within ~2 minutes of opening the plugin |
 

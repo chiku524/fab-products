@@ -33,7 +33,7 @@ The following are included for **Fab listing and customer delivery**:
 
 ## Supported targets (v1)
 
-- **Engine versions:** UE 5.4, 5.5, 5.6 — **one packaged zip per engine line** for Fab.  
+- **Engine versions:** **UE 5.4 and newer** (Unreal Engine 5.x). Ship **one packaged plugin zip per engine minor line** you support (e.g. 5.4.x, 5.5.x) so binaries match the buyer’s editor.  
 - **Editor:** Windows 64-bit (Win64).  
 - **Module:** `LevelSelectionSetsEditor`.
 

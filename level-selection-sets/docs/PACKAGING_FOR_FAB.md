@@ -1,6 +1,6 @@
 # Packaging for Fab (publisher)
 
-Fab expects a **working plugin** per supported engine version, validated packaging, and compliant descriptors.
+Fab expects a **working plugin** per **engine minor line** you sell (e.g. 5.4.x vs 5.5.x), validated packaging, and compliant descriptors. This product’s **minimum** engine is **UE 5.4**; newer **5.x** lines need their own built package.
 
 ## Pre-flight
 
@@ -17,7 +17,7 @@ On a machine with the correct Unreal Engine installed:
 RunUAT.bat BuildPlugin -Plugin="C:\Path\To\LevelSelectionSets\LevelSelectionSets.uplugin" -Package="C:\Out\LevelSelectionSets-UE5.4-Win64" -Rocket
 ```
 
-- Run once per **major.minor** engine line you support (e.g. 5.4.x package for 5.4 customers).  
+- Run **once per engine minor line** you support on Fab (e.g. a package built with **5.4.x** for 5.4 customers, another with **5.5.x** for 5.5 customers). Minimum engine version for this plugin is **5.4**.  
 - Use Epic’s **Package** workflow from the editor as an alternative if that is your standard QA path.  
 - **Test** the output zip on a clean project before upload.
 

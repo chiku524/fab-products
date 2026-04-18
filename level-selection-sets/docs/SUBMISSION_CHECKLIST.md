@@ -4,7 +4,7 @@ Use this when moving from **draft** → **review** → **publish** in the Fab po
 
 ## Technical
 
-- [ ] One plugin package per supported **engine version** (5.4 / 5.5 / 5.6) built and smoke-tested  
+- [ ] One plugin package per **engine minor line** you list on Fab (e.g. 5.4.x, 5.5.x), each built and smoke-tested — minimum supported engine is **UE 5.4**  
 - [ ] `.uplugin` includes **`EngineVersion`** aligned with the package  
 - [ ] Each module has **`PlatformAllowList`** (or deny list) — Win64 for v1 editor  
 - [ ] **Full source** for Unreal-dependent code included in the download  

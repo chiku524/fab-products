@@ -11,7 +11,7 @@
 
 | Item | Support level |
 |------|----------------|
-| UE 5.4 / 5.5 / 5.6 (matching package) | Supported |
+| UE **5.4+** (5.x), package built for that engine line | Supported |
 | Windows 64-bit editor | Supported |
 | Other editor OS or engine versions | Not supported unless explicitly stated on the listing |
 
