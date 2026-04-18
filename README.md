@@ -7,6 +7,7 @@ Monorepo for [Fab](https://www.fab.com/) listings: specifications, documentation
 | Directory | Product | Description |
 |-----------|---------|-------------|
 | [`worldbuilder-audit-convert/`](worldbuilder-audit-convert/) | **WorldBuilder Audit & Convert** | Editor plugin: audit levels for world-building inefficiencies; batch toward ISM/HISM with presets, preview, and reports. |
+| [`level-selection-sets/`](level-selection-sets/) | **Level Selection Sets** | Editor plugin: save named actor selection sets per level and recall them for lighting passes, prop sweeps, and batch edits. |
 
 ## Shared documentation
 
@@ -26,6 +27,11 @@ fab-products/                    # clone folder name can differ
 │   ├── CHANGELOG.md
 │   ├── docs/
 │   └── WorldBuilderAuditConvert/
+├── level-selection-sets/
+│   ├── README.md
+│   ├── CHANGELOG.md
+│   ├── docs/
+│   └── LevelSelectionSets/
 └── <future-product>/            # add new Fab products as sibling folders
 ```
 
