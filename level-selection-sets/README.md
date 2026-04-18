@@ -20,6 +20,9 @@ The following are included for **Fab listing and customer delivery**:
 | Listing copy (paste into Fab) | [`docs/FAB_LISTING_COPY.md`](docs/FAB_LISTING_COPY.md) |
 | Media checklist | [`docs/MEDIA.md`](docs/MEDIA.md) |
 | Packaging / RunUAT | [`docs/PACKAGING_FOR_FAB.md`](docs/PACKAGING_FOR_FAB.md) |
+| Packaging scripts | [`scripts/README.md`](scripts/README.md) |
+| QA checklist | [`docs/VERIFICATION.md`](docs/VERIFICATION.md) |
+| Engine test matrix | [`docs/ENGINE_TEST_MATRIX.md`](docs/ENGINE_TEST_MATRIX.md) |
 | Submission checklist | [`docs/SUBMISSION_CHECKLIST.md`](docs/SUBMISSION_CHECKLIST.md) |
 | License | [`LICENSE`](LICENSE) |
 | Changelog | [`CHANGELOG.md`](CHANGELOG.md) |
@@ -40,3 +43,10 @@ The following are included for **Fab listing and customer delivery**:
 ## Quick install (customers)
 
 See [`docs/INSTALLATION.md`](docs/INSTALLATION.md): copy `LevelSelectionSets` into the project `Plugins/` folder, regenerate, build editor.
+
+## Publisher: build & test (UE 5.4+)
+
+1. On a machine with a given engine line installed, run [`scripts/package-plugin.ps1`](scripts/package-plugin.ps1) (see [`scripts/README.md`](scripts/README.md)).  
+2. Repeat for each minor line you sell (different `EngineRoot` / label per 5.4.x, 5.5.x, …).  
+3. Follow [`docs/VERIFICATION.md`](docs/VERIFICATION.md) on a clean project per package.  
+4. Fill [`docs/ENGINE_TEST_MATRIX.md`](docs/ENGINE_TEST_MATRIX.md) and ship the matching zip(s) on Fab.

@@ -2,6 +2,19 @@
 
 Fab expects a **working plugin** per **engine minor line** you sell (e.g. 5.4.x vs 5.5.x), validated packaging, and compliant descriptors. This product’s **minimum** engine is **UE 5.4**; newer **5.x** lines need their own built package.
 
+## Automated packaging (recommended)
+
+From the repo, use the PowerShell helper (writes under `level-selection-sets/dist/` by default):
+
+```powershell
+cd level-selection-sets\scripts
+.\package-plugin.ps1 -EngineRoot "C:\Program Files\Epic Games\UE_5.4" -UeVersionLabel "5.4"
+```
+
+Run again with each installed engine (e.g. change `-EngineRoot` to your **UE_5.5** path and `-UeVersionLabel "5.5"`). See [`scripts/README.md`](../scripts/README.md).
+
+After each build, run [`VERIFICATION.md`](VERIFICATION.md) and record the result in [`ENGINE_TEST_MATRIX.md`](ENGINE_TEST_MATRIX.md).
+
 ## Pre-flight
 
 1. Replace all **`[PUBLISHER_NAME]`** / **`[SUPPORT_EMAIL]`** placeholders in docs and source copyright lines.  

@@ -9,6 +9,9 @@ Use this file as the **primary documentation index** included with the Fab downl
 | [FAQ.md](docs/FAQ.md) | Customers | Common questions and troubleshooting |
 | [SUPPORT.md](docs/SUPPORT.md) | Customers | How to get help, supported versions |
 | [PACKAGING_FOR_FAB.md](docs/PACKAGING_FOR_FAB.md) | Publisher | Build zipped plugins for each engine version |
+| [VERIFICATION.md](docs/VERIFICATION.md) | Publisher | Smoke-test checklist per packaged build |
+| [ENGINE_TEST_MATRIX.md](docs/ENGINE_TEST_MATRIX.md) | Publisher | Record which engine lines are built and tested |
+| [scripts/README.md](scripts/README.md) | Publisher | `RunUAT` packaging scripts (Windows) |
 | [FAB_LISTING_COPY.md](docs/FAB_LISTING_COPY.md) | Publisher | Copy for Fab listing fields |
 | [MEDIA.md](docs/MEDIA.md) | Publisher | Thumbnail, gallery, trailer checklist |
 | [SUBMISSION_CHECKLIST.md](docs/SUBMISSION_CHECKLIST.md) | Publisher | Pre-submit technical + listing checks |

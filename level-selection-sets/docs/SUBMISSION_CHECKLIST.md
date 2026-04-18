@@ -5,6 +5,8 @@ Use this when moving from **draft** → **review** → **publish** in the Fab po
 ## Technical
 
 - [ ] One plugin package per **engine minor line** you list on Fab (e.g. 5.4.x, 5.5.x), each built and smoke-tested — minimum supported engine is **UE 5.4**  
+- [ ] Each line built with [`scripts/package-plugin.ps1`](../scripts/package-plugin.ps1) (or equivalent `RunUAT`) from that line’s engine install  
+- [ ] [`VERIFICATION.md`](VERIFICATION.md) completed per package; [`ENGINE_TEST_MATRIX.md`](ENGINE_TEST_MATRIX.md) filled in for what you ship  
 - [ ] `.uplugin` includes **`EngineVersion`** aligned with the package  
 - [ ] Each module has **`PlatformAllowList`** (or deny list) — Win64 for v1 editor  
 - [ ] **Full source** for Unreal-dependent code included in the download  
