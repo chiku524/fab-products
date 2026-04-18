@@ -48,3 +48,7 @@ Summary:
 - Straightforward use cases sell well.
 
 **Market implication:** Opportunity for a **mid-priced** Unreal code plugin between basic placement helpers and deeply technical optimization utilities — clear editor productivity for environment work and cleaner scenes without requiring low-level optimization theory.
+
+## See also
+
+- **[Unreal plugin testing (beginner)](unreal-plugin-testing-beginner.md)** — step-by-step smoke testing for code plugins in this repo (no C++ required for the test pass itself).

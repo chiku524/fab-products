@@ -28,6 +28,7 @@ This folder is one **product** inside the [fab-products monorepo](../README.md).
 | Example project notes | [`example-project/README.md`](example-project/README.md) |
 | Internal brief / positioning | [`docs/build-brief.md`](docs/build-brief.md), [`docs/product-package.md`](docs/product-package.md) |
 | Shared Fab rules (repo-wide) | [`../docs/fab-technical-reference.md`](../docs/fab-technical-reference.md) |
+| New to Unreal workflows? | [`../docs/unreal-plugin-testing-beginner.md`](../docs/unreal-plugin-testing-beginner.md) *(plugins only; this kit is docs)* |
 
 **Publisher:** **Immersive Labs** · **nico.builds@outlook.com** (see [`docs/SUPPORT.md`](docs/SUPPORT.md)). Match your Fab listing to the same contact details.
 

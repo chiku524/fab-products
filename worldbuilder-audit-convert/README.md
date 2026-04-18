@@ -27,6 +27,7 @@ The following are included for **Fab listing and customer delivery**:
 | Example project (separate host) | [`example-project/README.md`](example-project/README.md) |
 | Plugin source + descriptor | [`WorldBuilderAuditConvert/`](WorldBuilderAuditConvert/) |
 | Shared Fab rules | [`../docs/fab-technical-reference.md`](../docs/fab-technical-reference.md) |
+| **New to UE?** Smoke testing | [`../docs/unreal-plugin-testing-beginner.md`](../docs/unreal-plugin-testing-beginner.md) |
 
 **Fab listing:** Publisher **Immersive Labs** · **nico.builds@outlook.com** · `SupportURL` in `WorldBuilderAuditConvert.uplugin` is set to **`mailto:nico.builds@outlook.com`**. After Fab publishes your product page, add **`FabURL`** to the `.uplugin` per Fab rules. Optional: set **`DocsURL`** when you host documentation.
 
