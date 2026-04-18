@@ -28,7 +28,7 @@ public class LevelSelectionSetsEditor : ModuleRules
 				"EditorWidgets",
 				"Projects",
 				"LevelEditor",
-				"WorkspaceMenu",
+				"WorkspaceMenuStructure",
 			}
 		);
 	}

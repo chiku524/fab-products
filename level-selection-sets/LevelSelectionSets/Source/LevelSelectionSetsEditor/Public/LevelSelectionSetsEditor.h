@@ -4,7 +4,7 @@
 
 #include "Modules/ModuleInterface.h"
 
-struct FSpawnTabArgs;
+class FSpawnTabArgs;
 
 class SDockTab;
 

@@ -52,10 +52,13 @@ ALevelSelectionSetsData* ALevelSelectionSetsData::FindOrCreateInWorld(UWorld* Wo
 	SpawnParams.OverrideLevel = PersistentLevel;
 	SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
 
-	return World->SpawnActor<ALevelSelectionSetsData>(FTransform::Identity, SpawnParams);
+	return World->SpawnActor<ALevelSelectionSetsData>(
+		ALevelSelectionSetsData::StaticClass(),
+		FTransform::Identity,
+		SpawnParams);
 }
 
-void ALevelSelectionSetsData::UpsertSet(FName SetName, TArray<FActorGuid>&& ActorGuids)
+void ALevelSelectionSetsData::UpsertSet(FName SetName, TArray<FGuid>&& ActorGuids)
 {
 	if (SetName.IsNone())
 	{

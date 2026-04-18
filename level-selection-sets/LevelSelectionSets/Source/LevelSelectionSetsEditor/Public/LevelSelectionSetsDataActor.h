@@ -24,7 +24,7 @@ public:
 
 	const TArray<FNamedActorSelectionSet>& GetSets() const { return Sets; }
 
-	void UpsertSet(FName SetName, TArray<FActorGuid>&& ActorGuids);
+	void UpsertSet(FName SetName, TArray<FGuid>&& ActorGuids);
 	bool RemoveSet(FName SetName);
 	bool RenameSet(FName OldName, FName NewName);
 

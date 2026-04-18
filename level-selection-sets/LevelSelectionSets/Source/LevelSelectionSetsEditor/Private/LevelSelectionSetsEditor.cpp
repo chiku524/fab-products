@@ -8,6 +8,7 @@
 #include "SLevelSelectionSetsPanel.h"
 #include "Widgets/Docking/SDockTab.h"
 #include "WorkspaceMenuStructure.h"
+#include "WorkspaceMenuStructureModule.h"
 
 #define LOCTEXT_NAMESPACE "FLevelSelectionSetsEditorModule"
 

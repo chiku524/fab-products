@@ -13,7 +13,7 @@ public:
 
 	void Construct(const FArguments& InArgs);
 
-	virtual void ReleaseSlateResources(bool bReleaseChildren) override;
+	virtual ~SLevelSelectionSetsPanel() override;
 
 private:
 	void HandleMapChange(uint32 MapChangeFlags);

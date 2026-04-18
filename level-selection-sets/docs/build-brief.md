@@ -46,7 +46,7 @@ Focused and dependable: **Select → Save set → Recall** with a simple dockabl
 
 ## Implementation notes (for engineers)
 
-- v1 stores **`FActorGuid`** per selected actor (`AActor::GetActorGuid()`), validated on recall by scanning the loaded world.  
+- v1 stores **`FGuid`** actor ids (`AActor::GetActorGuid()`), validated on recall by scanning the loaded world.  
 - Data lives on **`ALevelSelectionSetsData`** (editor-only actor spawned into the **persistent level** on first save; listed sets can be read without creating the actor).  
 - Nomad tab registered in `LevelSelectionSetsEditor` via `FGlobalTabmanager` + `WorkspaceMenu::GetMenuStructure().GetLevelEditorCategory()`.  
 - Undo wraps data edits with **`FScopedTransaction`** for save / delete / rename.

@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include "Engine/ActorGuid.h"
+#include "Misc/Guid.h"
 #include "LevelSelectionSetsTypes.generated.h"
 
 USTRUCT()
@@ -14,5 +14,5 @@ struct FNamedActorSelectionSet
 	FName SetName;
 
 	UPROPERTY(EditAnywhere, Category = "LevelSelectionSets")
-	TArray<FActorGuid> ActorGuids;
+	TArray<FGuid> ActorGuids;
 };

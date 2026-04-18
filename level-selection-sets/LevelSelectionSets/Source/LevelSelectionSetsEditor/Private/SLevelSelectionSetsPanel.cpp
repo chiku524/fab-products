@@ -30,7 +30,7 @@ namespace LevelSelectionSetsPanelHelpers
 		return GEditor->GetEditorWorldContext().World();
 	}
 
-	static AActor* FindActorByGuid(UWorld* World, const FActorGuid& Guid)
+	static AActor* FindActorByGuid(UWorld* World, const FGuid& Guid)
 	{
 		if (!World)
 		{
@@ -49,7 +49,7 @@ namespace LevelSelectionSetsPanelHelpers
 		return nullptr;
 	}
 
-	static void CollectGuidsFromSelection(TArray<FActorGuid>& OutGuids)
+	static void CollectGuidsFromSelection(TArray<FGuid>& OutGuids)
 	{
 		OutGuids.Reset();
 
@@ -68,7 +68,7 @@ namespace LevelSelectionSetsPanelHelpers
 		{
 			if (AActor* Actor = Cast<AActor>(*It))
 			{
-				const FActorGuid Guid = Actor->GetActorGuid();
+				const FGuid Guid = Actor->GetActorGuid();
 				OutGuids.Add(Guid);
 			}
 		}
@@ -155,15 +155,13 @@ void SLevelSelectionSetsPanel::Construct(const FArguments& InArgs)
 	RefreshFromWorld();
 }
 
-void SLevelSelectionSetsPanel::ReleaseSlateResources(bool bReleaseChildren)
+SLevelSelectionSetsPanel::~SLevelSelectionSetsPanel()
 {
 	if (MapChangeHandle.IsValid())
 	{
 		FEditorDelegates::MapChange.Remove(MapChangeHandle);
 		MapChangeHandle.Reset();
 	}
-
-	SCompoundWidget::ReleaseSlateResources(bReleaseChildren);
 }
 
 void SLevelSelectionSetsPanel::HandleMapChange(uint32 MapChangeFlags)
@@ -299,7 +297,7 @@ FReply SLevelSelectionSetsPanel::OnSaveFromSelection()
 		return FReply::Handled();
 	}
 
-	TArray<FActorGuid> Guids;
+	TArray<FGuid> Guids;
 	LevelSelectionSetsPanelHelpers::CollectGuidsFromSelection(Guids);
 	if (Guids.Num() == 0)
 	{
@@ -358,7 +356,7 @@ FReply SLevelSelectionSetsPanel::OnRecallSet(FName SetName)
 
 	int32 Resolved = 0;
 	int32 Missing = 0;
-	for (const FActorGuid& Guid : Found->ActorGuids)
+	for (const FGuid& Guid : Found->ActorGuids)
 	{
 		if (AActor* Actor = LevelSelectionSetsPanelHelpers::FindActorByGuid(World, Guid))
 		{
