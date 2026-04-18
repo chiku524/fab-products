@@ -1,0 +1,28 @@
+# --- Merge selected lines into your project .gitignore (Unreal / Visual Studio) ---
+# Remove comment lines you do not need. Adjust paths if your layout differs.
+
+# Visual Studio / MSBuild
+.vs/
+*.VC.db
+*.opensdf
+*.sdf
+*.VC.opendb
+
+# Unreal — never commit generated folders from local dev machines
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+
+# Builds / packaging outputs
+**/dist/
+**/Packaged/
+
+# OS
+.DS_Store
+Thumbs.db

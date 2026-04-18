@@ -21,6 +21,9 @@ Build/
 *.exp
 *.target.xml
 
+# Cursor IDE (local)
+.cursor/
+
 # OS
 .DS_Store
 Thumbs.db

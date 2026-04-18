@@ -1,6 +1,6 @@
 # Epic Fab products
 
-Monorepo for [Fab](https://www.fab.com/) listings: specifications, documentation, and Unreal Engine plugin sources. Add each product as its **own top-level directory** (kebab-case slug).
+Monorepo for [Fab](https://www.fab.com/) listings: specifications, documentation, Unreal Engine plugin sources, and template/knowledge products. Add each product as its **own top-level directory** (kebab-case slug).
 
 ## Products
 
@@ -8,6 +8,7 @@ Monorepo for [Fab](https://www.fab.com/) listings: specifications, documentation
 |-----------|---------|-------------|
 | [`worldbuilder-audit-convert/`](worldbuilder-audit-convert/) | **WorldBuilder Audit & Convert** | Editor plugin: audit levels for world-building inefficiencies; batch toward ISM/HISM with presets, preview, and reports. |
 | [`level-selection-sets/`](level-selection-sets/) | **Level Selection Sets** | Editor plugin: save named actor selection sets per level and recall them for lighting passes, prop sweeps, and batch edits. |
+| [`unreal-game-dev-starter-kit/`](unreal-game-dev-starter-kit/) | **Unreal Game Dev Starter Kit** | Documentation + templates: project structure, workflows, source control, and shipping-minded checklists for UE game projects (no engine plugin). |
 
 ## Shared documentation
 
@@ -32,6 +33,11 @@ fab-products/                    # clone folder name can differ
 │   ├── CHANGELOG.md
 │   ├── docs/
 │   └── LevelSelectionSets/
+├── unreal-game-dev-starter-kit/
+│   ├── README.md
+│   ├── CHANGELOG.md
+│   ├── docs/
+│   └── templates/
 └── <future-product>/            # add new Fab products as sibling folders
 ```
 
