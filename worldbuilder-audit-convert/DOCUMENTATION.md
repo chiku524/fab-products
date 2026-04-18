@@ -9,12 +9,13 @@ Use this file as the **primary documentation index** included with the Fab downl
 | [FAQ.md](docs/FAQ.md) | Customers | Common questions and troubleshooting |
 | [SUPPORT.md](docs/SUPPORT.md) | Customers | How to get help, supported versions |
 | [PACKAGING_FOR_FAB.md](docs/PACKAGING_FOR_FAB.md) | Publisher | Build zipped plugins for each engine version |
+| [scripts/README.md](scripts/README.md) | Publisher | `RunUAT` packaging script |
 | [FAB_LISTING_COPY.md](docs/FAB_LISTING_COPY.md) | Publisher | Copy for Fab listing fields |
 | [MEDIA.md](docs/MEDIA.md) | Publisher | Thumbnail, gallery, trailer checklist |
 | [SUBMISSION_CHECKLIST.md](docs/SUBMISSION_CHECKLIST.md) | Publisher | Pre-submit technical + listing checks |
 | [CHANGELOG.md](CHANGELOG.md) | All | Version history |
 | [LICENSE](LICENSE) | All | License terms |
 
-**Fab compliance:** Replace `[PUBLISHER_NAME]`, `[SUPPORT_EMAIL]`, and placeholder URLs in `WorldBuilderAuditConvert.uplugin` and `SUPPORT.md` before you publish. After Fab assigns your product page, add the **`FabURL`** field to `WorldBuilderAuditConvert.uplugin` per [Fab Technical Requirements](https://support.fab.com/s/article/FAB-TECHNICAL-REQUIREMENTS).
+**Fab compliance:** Publisher **Immersive Labs**; support **nico.builds@outlook.com** (`docs/SUPPORT.md`). **`SupportURL`** in `WorldBuilderAuditConvert.uplugin` points to the same mailbox. After Fab assigns your product page, add the **`FabURL`** field to `WorldBuilderAuditConvert.uplugin` per [Fab Technical Requirements](https://support.fab.com/s/article/FAB-TECHNICAL-REQUIREMENTS). Add **`DocsURL`** when you host public documentation.
 
 **Example project:** Host a separate example project (plugin not embedded) and link it from the listing; see [example-project/README.md](example-project/README.md).

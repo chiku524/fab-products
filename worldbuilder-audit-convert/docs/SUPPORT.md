@@ -2,8 +2,8 @@
 
 ## Publisher
 
-- **Publisher:** `[PUBLISHER_NAME]` *(replace before release)*  
-- **Support email:** `[SUPPORT_EMAIL]` *(replace before release)*  
+- **Publisher:** Immersive Labs  
+- **Support email:** nico.builds@outlook.com  
 - **Product:** WorldBuilder Audit & Convert  
 - **Fab listing:** Add your public Fab product URL here after publication for customer reference.
 
@@ -11,7 +11,7 @@
 
 | Item | Support level |
 |------|----------------|
-| UE 5.4 / 5.5 / 5.6 (matching package) | Supported |
+| UE **5.4+** (5.x), package built for that engine line | Supported |
 | Windows 64-bit editor | Supported |
 | Other editor OS or engine versions | Not supported unless explicitly stated on the listing |
 

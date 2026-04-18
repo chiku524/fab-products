@@ -1,6 +1,6 @@
 # Fab listing copy — paste-ready
 
-Replace bracketed placeholders. Use with [MEDIA.md](MEDIA.md) and [PACKAGING_FOR_FAB.md](PACKAGING_FOR_FAB.md) when submitting.
+Use with [MEDIA.md](MEDIA.md) and [PACKAGING_FOR_FAB.md](PACKAGING_FOR_FAB.md) when submitting.
 
 ## Product identity
 
@@ -33,7 +33,7 @@ Builders who want **optimization for artists**, not only for engineers: polish p
 **Important**
 
 - Editor-only workflow; not a replacement for Unreal’s full profiler.  
-- Use the plugin package that matches your **exact** engine version (5.4 / 5.5 / 5.6).  
+- Use the plugin package that matches your **exact** Unreal Engine **5.4+** editor version.  
 - **Windows 64-bit editor** supported for v1 unless your listing states broader support.
 
 ## Keywords / search tags
@@ -53,14 +53,14 @@ Unreal Engine, plugin, world building, level design, environment art, optimizati
 - **Type:** Code plugin (C++ editor module)  
 - **Module:** `WorldBuilderAuditConvertEditor`  
 - **Platforms:** Editor **Win64** (v1)  
-- **Engine compatibility:** UE 5.4, 5.5, 5.6 — **separate downloadable packages per engine version**  
+- **Engine compatibility:** UE **5.4 and newer** (5.x) — **separate downloadable packages per engine minor line** you publish  
 - **Dependencies:** Engine-only; does not require other marketplace plugins  
 - **Documentation:** Included (`DOCUMENTATION.md` and `docs/` in product package)  
 - **Example project:** Linked separately from the listing (not embedded in the plugin zip) — see `example-project/README.md`  
 
 ## Support blurb (listing support field)
 
-Support: `[SUPPORT_EMAIL]` — include engine version, plugin version, and steps to reproduce. See included `docs/SUPPORT.md`.
+Support: `nico.builds@outlook.com` — include engine version, plugin version, and steps to reproduce. See included `docs/SUPPORT.md`.
 
 ## Version line for store
 

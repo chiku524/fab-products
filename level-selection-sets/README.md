@@ -30,7 +30,7 @@ The following are included for **Fab listing and customer delivery**:
 | Plugin source + descriptor | [`LevelSelectionSets/`](LevelSelectionSets/) |
 | Shared Fab rules | [`../docs/fab-technical-reference.md`](../docs/fab-technical-reference.md) |
 
-**Before you submit:** Replace `[PUBLISHER_NAME]` and `[SUPPORT_EMAIL]` everywhere (including `.uplugin`, `LICENSE`, `SUPPORT.md`, and source headers). Set **`DocsURL`** / **`SupportURL`** in `LevelSelectionSets.uplugin` to your real URLs. After Fab publishes your product page, add **`FabURL`** to the `.uplugin` per Fab rules.
+**Fab listing:** Publisher **Immersive Labs** · **nico.builds@outlook.com** · `SupportURL` in `LevelSelectionSets.uplugin` is set to **`mailto:nico.builds@outlook.com`**. After Fab publishes your product page, add **`FabURL`** to the `.uplugin` per Fab rules. Optional: set **`DocsURL`** when you host documentation.
 
 **Internal specs (optional for buyers):** [`docs/build-brief.md`](docs/build-brief.md), [`docs/product-package.md`](docs/product-package.md).
 

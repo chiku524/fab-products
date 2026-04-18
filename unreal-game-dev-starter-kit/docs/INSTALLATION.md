@@ -1,6 +1,6 @@
 # Installation
 
-This product is **documentation and text templates**, not an Unreal plugin. There is nothing to compile or enable in the editor.
+This product is **documentation and text templates**, not an Unreal plugin. There is nothing to compile or enable in the editor. Content is written for teams using **Unreal Engine 5.4 and newer** (5.x).
 
 ## What you receive
 

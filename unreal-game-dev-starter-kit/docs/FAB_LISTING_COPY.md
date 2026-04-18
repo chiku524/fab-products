@@ -12,7 +12,7 @@ Replace bracketed placeholders. Pair with [MEDIA.md](MEDIA.md) and [PACKAGING_FO
 
 ## Short description
 
-Documentation and copy-paste templates for Unreal Engine **5.x** game projects: architecture habits, milestone workflow, Git/LFS setup, and team alignment—no plugin required.
+Documentation and copy-paste templates for Unreal Engine **5.4+** (5.x) game projects: architecture habits, milestone workflow, Git/LFS setup, and team alignment—no plugin required.
 
 ## Long description
 
@@ -49,14 +49,14 @@ Unreal Engine, game development, starter kit, workflow, Git, Git LFS, project st
 ## Technical summary
 
 - **Type:** Documentation + text templates (no `.uplugin`, no compiled binaries)  
-- **Engine:** Unreal Engine 5.x (conceptual; no version-locked code)  
+- **Engine:** Unreal Engine **5.4+** (5.x) — conceptual guidance; no version-locked code  
 - **Platforms:** N/A (not runtime software)  
 - **Dependencies:** None  
 - **Documentation:** This product *is* the documentation  
 
 ## Support blurb
 
-Support: `[SUPPORT_EMAIL]` — include kit version and section name. See `docs/SUPPORT.md`.
+Support: `nico.builds@outlook.com` — include kit version and section name. See `docs/SUPPORT.md`.
 
 ## Version line for store
 

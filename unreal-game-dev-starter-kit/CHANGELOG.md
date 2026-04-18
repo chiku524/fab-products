@@ -12,4 +12,5 @@ All notable changes to **Unreal Game Dev Starter Kit** are documented here.
 
 ## [Unreleased]
 
+- Publisher **Immersive Labs**; support **nico.builds@outlook.com**; engine scope clarified as **UE 5.4+**.
 - Track post-launch revisions for Fab updates.

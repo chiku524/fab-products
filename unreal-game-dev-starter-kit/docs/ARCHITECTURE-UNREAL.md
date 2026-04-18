@@ -1,6 +1,6 @@
 # Architecture primer — Unreal Engine
 
-A **practical mental model** for structuring gameplay code and content in UE5. Use it to agree on vocabulary across engineering, design, and art.
+A **practical mental model** for structuring gameplay code and content in **Unreal Engine 5.4+** (5.x). Use it to agree on vocabulary across engineering, design, and art.
 
 ## 1. Modules
 

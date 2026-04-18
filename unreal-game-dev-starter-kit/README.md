@@ -29,7 +29,7 @@ This folder is one **product** inside the [fab-products monorepo](../README.md).
 | Internal brief / positioning | [`docs/build-brief.md`](docs/build-brief.md), [`docs/product-package.md`](docs/product-package.md) |
 | Shared Fab rules (repo-wide) | [`../docs/fab-technical-reference.md`](../docs/fab-technical-reference.md) |
 
-**Before you publish:** Replace `[PUBLISHER_NAME]` and `[SUPPORT_EMAIL]` everywhere. Point `docs/SUPPORT.md` and your Fab listing to real contact details.
+**Publisher:** **Immersive Labs** · **nico.builds@outlook.com** (see [`docs/SUPPORT.md`](docs/SUPPORT.md)). Match your Fab listing to the same contact details.
 
 ## Audience
 
@@ -39,4 +39,4 @@ This folder is one **product** inside the [fab-products monorepo](../README.md).
 
 ## Engine scope
 
-Written for **Unreal Engine 5.x**. Many habits transfer to UE4; the kit calls out where versions diverge in spirit, not in exhaustive compatibility tables.
+Written for **Unreal Engine 5.4 and newer** (5.x). Older engines may share workflow ideas; this kit does not target UE4 in detail.

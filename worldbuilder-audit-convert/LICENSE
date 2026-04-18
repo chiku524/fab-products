@@ -1,8 +1,6 @@
 Fab marketplace product license — WorldBuilder Audit & Convert
 
-Copyright (c) [PUBLISHER_NAME]. All Rights Reserved.
-
-IMPORTANT: Replace [PUBLISHER_NAME] with your legal name or entity before publishing.
+Copyright (c) Immersive Labs. All Rights Reserved.
 
 1. Grant  
    Purchasing this product through Fab grants you a non-exclusive, non-transferable license to use the plugin and included source code in your Unreal Engine projects, subject to Epic’s Fab terms and this license.
@@ -11,7 +9,7 @@ IMPORTANT: Replace [PUBLISHER_NAME] with your legal name or entity before publis
    You may not redistribute the plugin or its source to third parties except as required to build and run your projects (e.g. team members working on the same project). You may not remove copyright notices from source files. You may not use the product in violation of Epic’s agreements or applicable law.
 
 3. No warranty  
-   The product is provided “as is.” To the maximum extent permitted by law, [PUBLISHER_NAME] disclaims warranties of merchantability and fitness for a particular purpose.
+   The product is provided “as is.” To the maximum extent permitted by law, Immersive Labs disclaims warranties of merchantability and fitness for a particular purpose.
 
 4. Support  
    Support is provided according to the contact information in docs/SUPPORT.md and the Fab listing.

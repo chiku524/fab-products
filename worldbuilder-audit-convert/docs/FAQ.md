@@ -9,7 +9,7 @@ It scans your level for patterns common in manual world building—especially ma
 Environment artists, level designers, technical artists, and small teams polishing large environments.
 
 **Which engine versions are supported?**  
-Unreal Engine **5.4**, **5.5**, and **5.6**. Use the download package that matches your engine version exactly.
+Unreal Engine **5.4 and newer** (5.x). Use the Fab download (or build) that matches **your editor’s exact version**, because C++ plugins are not interchangeable across arbitrary 5.x builds.
 
 **Mac or Linux editor?**  
 Version 1 targets **Windows (Win64)** editor only unless the listing states otherwise.

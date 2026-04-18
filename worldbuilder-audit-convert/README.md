@@ -20,6 +20,7 @@ The following are included for **Fab listing and customer delivery**:
 | Listing copy (paste into Fab) | [`docs/FAB_LISTING_COPY.md`](docs/FAB_LISTING_COPY.md) |
 | Media checklist | [`docs/MEDIA.md`](docs/MEDIA.md) |
 | Packaging / RunUAT | [`docs/PACKAGING_FOR_FAB.md`](docs/PACKAGING_FOR_FAB.md) |
+| Packaging script | [`scripts/README.md`](scripts/README.md) |
 | Submission checklist | [`docs/SUBMISSION_CHECKLIST.md`](docs/SUBMISSION_CHECKLIST.md) |
 | License | [`LICENSE`](LICENSE) |
 | Changelog | [`CHANGELOG.md`](CHANGELOG.md) |
@@ -27,13 +28,13 @@ The following are included for **Fab listing and customer delivery**:
 | Plugin source + descriptor | [`WorldBuilderAuditConvert/`](WorldBuilderAuditConvert/) |
 | Shared Fab rules | [`../docs/fab-technical-reference.md`](../docs/fab-technical-reference.md) |
 
-**Before you submit:** Replace `[PUBLISHER_NAME]` and `[SUPPORT_EMAIL]` everywhere (including `.uplugin`, `LICENSE`, `SUPPORT.md`, and source headers). Set **`DocsURL`** / **`SupportURL`** in `WorldBuilderAuditConvert.uplugin` to your real URLs. After Fab publishes your product page, add **`FabURL`** to the `.uplugin` per Fab rules.
+**Fab listing:** Publisher **Immersive Labs** · **nico.builds@outlook.com** · `SupportURL` in `WorldBuilderAuditConvert.uplugin` is set to **`mailto:nico.builds@outlook.com`**. After Fab publishes your product page, add **`FabURL`** to the `.uplugin` per Fab rules. Optional: set **`DocsURL`** when you host documentation.
 
 **Internal specs (optional for buyers):** [`docs/build-brief.md`](docs/build-brief.md), [`docs/product-package.md`](docs/product-package.md).
 
 ## Supported targets (v1)
 
-- **Engine versions:** UE 5.4, 5.5, 5.6 — **one packaged zip per engine line** for Fab.  
+- **Engine versions:** **UE 5.4 and newer** (Unreal Engine 5.x). Ship **one packaged plugin zip per engine minor line** you support (e.g. 5.4.x, 5.5.x) so binaries match the buyer’s editor.  
 - **Editor:** Windows 64-bit (Win64).  
 - **Module:** `WorldBuilderAuditConvertEditor`.
 

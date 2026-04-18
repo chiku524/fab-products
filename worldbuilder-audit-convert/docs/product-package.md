@@ -56,7 +56,7 @@
 
 | Item | Spec |
 |------|------|
-| Engine versions at launch | UE 5.4, 5.5, 5.6 |
+| Engine versions at launch | UE **5.4+** (5.x); separate Fab packages per minor line as needed |
 | Dev platform | Windows first; Mac/Linux if validated |
 | Code | Full source for Unreal-dependent code |
 | Example project | Strongly recommended (hosted link) |

@@ -59,7 +59,7 @@ Unreal Engine, plugin, level design, selection, outliner, editor tools, workflow
 
 ## Support blurb (listing support field)
 
-Support: `[SUPPORT_EMAIL]` — include engine version, plugin version, and steps to reproduce. See included `docs/SUPPORT.md`.
+Support: `nico.builds@outlook.com` — include engine version, plugin version, and steps to reproduce. See included `docs/SUPPORT.md`.
 
 ## Version line for store
 

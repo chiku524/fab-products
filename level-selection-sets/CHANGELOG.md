@@ -18,5 +18,6 @@ All notable changes to **Level Selection Sets** are documented here. Versioning 
 
 ## [Unreleased]
 
+- Publisher **Immersive Labs**; support **nico.builds@outlook.com**; `SupportURL` in `.uplugin` set to `mailto:` for the same address.
 - Publisher tooling: `scripts/package-plugin.ps1` / `package-plugin.sh`, `docs/VERIFICATION.md`, `docs/ENGINE_TEST_MATRIX.md`; `dist/` gitignored.
 - Planned fixes and features after launch (track here for Fab updates).

@@ -14,7 +14,7 @@ Narrow and dependable. **Not** a replacement for Unreal’s full profiling stack
 |-------|----------------|
 | Primary function | Audit levels and batch-convert eligible repeated actors to more efficient structures |
 | Target user | Environment artist, level designer, indie developer, technical artist |
-| Engine targets | UE 5.4, 5.5, 5.6 |
+| Engine targets | UE **5.4 and newer** (5.x); ship builds per minor line you support |
 | Platform (V1) | Windows editor |
 | Time-to-value | Meaningful result within ~5 minutes of opening the plugin |
 

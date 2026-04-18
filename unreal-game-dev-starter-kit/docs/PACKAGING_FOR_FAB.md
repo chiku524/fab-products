@@ -4,7 +4,7 @@ This product ships as a **zip of Markdown, templates, and license files**—no b
 
 ## Pre-flight
 
-1. Replace **`[PUBLISHER_NAME]`** and **`[SUPPORT_EMAIL]`** in `LICENSE`, `docs/SUPPORT.md`, and anywhere else placeholders remain.  
+1. Confirm **`LICENSE`** and **`docs/SUPPORT.md`** match the Fab listing (publisher **Immersive Labs**, **nico.builds@outlook.com**).  
 2. Set the **Fab listing** description from [FAB_LISTING_COPY.md](FAB_LISTING_COPY.md).  
 3. Proofread links between files (relative paths).
 

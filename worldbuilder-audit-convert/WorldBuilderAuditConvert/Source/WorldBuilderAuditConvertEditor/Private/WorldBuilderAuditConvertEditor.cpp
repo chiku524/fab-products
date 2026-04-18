@@ -1,4 +1,4 @@
-// Copyright (c) [PUBLISHER_NAME]. All Rights Reserved.
+// Copyright (c) Immersive Labs. All Rights Reserved.
 
 #include "WorldBuilderAuditConvertEditor.h"
 

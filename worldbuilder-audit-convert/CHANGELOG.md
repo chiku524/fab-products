@@ -14,8 +14,9 @@ All notable changes to **WorldBuilder Audit & Convert** are documented here. Ver
 
 ### Notes
 
-- Ship **one built plugin package per supported engine version** (UE 5.4 / 5.5 / 5.6). See `docs/PACKAGING_FOR_FAB.md`.
+- Ship **one built plugin package per engine minor line** you publish (UE **5.4+**). See `docs/PACKAGING_FOR_FAB.md`.
 
 ## [Unreleased]
 
+- Publisher **Immersive Labs**; support **nico.builds@outlook.com**; `SupportURL` in `.uplugin` set to `mailto:` for the same address; `scripts/package-plugin.ps1` and `dist/` gitignore.
 - Planned fixes and features after launch (track here for Fab updates).

@@ -18,6 +18,6 @@ Use this file as the **primary documentation index** included with the Fab downl
 | [CHANGELOG.md](CHANGELOG.md) | All | Version history |
 | [LICENSE](LICENSE) | All | License terms |
 
-**Fab compliance:** Replace `[PUBLISHER_NAME]`, `[SUPPORT_EMAIL]`, and placeholder URLs in `LevelSelectionSets.uplugin` and `SUPPORT.md` before you publish. After Fab assigns your product page, add the **`FabURL`** field to `LevelSelectionSets.uplugin` per [Fab Technical Requirements](https://support.fab.com/s/article/FAB-TECHNICAL-REQUIREMENTS).
+**Fab compliance:** Publisher **Immersive Labs**; support **nico.builds@outlook.com** (`docs/SUPPORT.md`). **`SupportURL`** in `LevelSelectionSets.uplugin` points to the same mailbox. After Fab assigns your product page, add the **`FabURL`** field to `LevelSelectionSets.uplugin` per [Fab Technical Requirements](https://support.fab.com/s/article/FAB-TECHNICAL-REQUIREMENTS). Add **`DocsURL`** when you host public documentation.
 
 **Example project:** Host a separate example project (plugin not embedded) and link it from the listing; see [example-project/README.md](example-project/README.md).

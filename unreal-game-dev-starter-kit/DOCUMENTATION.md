@@ -19,4 +19,4 @@ Primary index for the Fab download. Link this file from the listing’s technica
 | [LICENSE](LICENSE) | All | License terms |
 | [templates/](templates/) | Customers | Copy-paste files |
 
-**Fab compliance:** Replace `[PUBLISHER_NAME]`, `[SUPPORT_EMAIL]`, and placeholder URLs before publication.
+**Fab compliance:** Publisher **Immersive Labs**; support **nico.builds@outlook.com** (`docs/SUPPORT.md`). Match the Fab listing to those details. This kit is documentation-only (no `.uplugin`).

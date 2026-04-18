@@ -3,7 +3,7 @@
 ## Technical / content
 
 - [ ] All internal links in Markdown resolve relative to the zip layout  
-- [ ] No broken placeholder text (`[PUBLISHER_NAME]` replaced where promised)  
+- [ ] Publisher identity in `LICENSE` / `SUPPORT.md` matches the Fab listing (**Immersive Labs**, **nico.builds@outlook.com**)  
 - [ ] `LICENSE` and `SUPPORT.md` match seller terms  
 - [ ] `CHANGELOG.md` version matches the downloadable label  
 - [ ] UTF-8 encoding for `.md` and template files  

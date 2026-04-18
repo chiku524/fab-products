@@ -17,8 +17,8 @@ After each build, run [`VERIFICATION.md`](VERIFICATION.md) and record the result
 
 ## Pre-flight
 
-1. Replace all **`[PUBLISHER_NAME]`** / **`[SUPPORT_EMAIL]`** placeholders in docs and source copyright lines.  
-2. Set **`CreatedBy`**, **`SupportURL`**, and **`DocsURL`** in `LevelSelectionSets.uplugin` to your real values when you publish.  
+1. Confirm **`CreatedBy`**, **`SupportURL`**, and optional **`DocsURL`** in `LevelSelectionSets.uplugin` match what you list on Fab (publisher: **Immersive Labs**).  
+2. Set **`DocsURL`** when you publish public documentation (optional).  
 3. After Fab approves the listing, add **`FabURL`** to the `.uplugin` file (string URL to your Fab product page).  
 4. Confirm each module lists **`PlatformAllowList`** or **`PlatformDenyList`** (Win64 editor for v1).
 

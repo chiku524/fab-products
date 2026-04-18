@@ -2,8 +2,8 @@
 
 ## Publisher
 
-- **Publisher:** `[PUBLISHER_NAME]` *(replace before release)*  
-- **Support email:** `[SUPPORT_EMAIL]` *(replace before release)*  
+- **Publisher:** Immersive Labs  
+- **Support email:** nico.builds@outlook.com  
 - **Product:** Level Selection Sets  
 - **Fab listing:** Add your public Fab product URL here after publication for customer reference.
 

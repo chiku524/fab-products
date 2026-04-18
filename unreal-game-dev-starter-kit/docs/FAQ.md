@@ -6,7 +6,7 @@
 A **documentation and template pack** for structuring Unreal Engine game projects: architecture notes, milestone workflow, Git/LFS guidance, and copy-paste files. It is **not** a plugin and does not add features inside the editor.
 
 **Which Unreal versions?**  
-Written for **Unreal Engine 5.x**. Older engines share many workflow ideas; verify specifics against Epic’s docs for your version.
+The kit targets **Unreal Engine 5.4 and newer** (5.x). Older engines may share some workflow ideas; verify specifics against Epic’s docs for your version.
 
 **Do I need C++?**  
 No. The kit helps **both** Blueprint-first and C++ projects. Architecture sections mention C++ where it clarifies module boundaries.
