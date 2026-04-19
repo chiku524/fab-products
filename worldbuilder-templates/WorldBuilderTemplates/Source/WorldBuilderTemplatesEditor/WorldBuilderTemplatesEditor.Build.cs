@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class WorldBuilderAuditConvertEditor : ModuleRules
+public class WorldBuilderTemplatesEditor : ModuleRules
 {
-	public WorldBuilderAuditConvertEditor(ReadOnlyTargetRules Target) : base(Target)
+	public WorldBuilderTemplatesEditor(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 
@@ -20,6 +20,7 @@ public class WorldBuilderAuditConvertEditor : ModuleRules
 		PrivateDependencyModuleNames.AddRange(
 			new string[]
 			{
+				"InputCore",
 				"UnrealEd",
 				"Slate",
 				"SlateCore",
@@ -29,6 +30,8 @@ public class WorldBuilderAuditConvertEditor : ModuleRules
 				"Projects",
 				"LevelEditor",
 				"WorkspaceMenuStructure",
+				"AssetRegistry",
+				"DeveloperSettings",
 			}
 		);
 	}

@@ -6,6 +6,7 @@ Monorepo for [Fab](https://www.fab.com/) listings: specifications, documentation
 
 | Directory | Product | Description |
 |-----------|---------|-------------|
+| [`worldbuilder-templates/`](worldbuilder-templates/) | **World Builder Templates** | Editor plugin: pick ready-made world maps shipped with the plugin as a starting point (template or direct open). |
 | [`worldbuilder-audit-convert/`](worldbuilder-audit-convert/) | **WorldBuilder Audit & Convert** | Editor plugin: audit levels for world-building inefficiencies; batch toward ISM/HISM with presets, preview, and reports. |
 | [`level-selection-sets/`](level-selection-sets/) | **Level Selection Sets** | Editor plugin: save named actor selection sets per level and recall them for lighting passes, prop sweeps, and batch edits. |
 | [`unreal-game-dev-starter-kit/`](unreal-game-dev-starter-kit/) | **Unreal Game Dev Starter Kit** | Documentation + templates: project structure, workflows, source control, and shipping-minded checklists for UE game projects (no engine plugin). |
@@ -29,6 +30,10 @@ fab-products/                    # clone folder name can differ
 │   ├── fab-technical-reference.md
 │   ├── unreal-plugin-testing-beginner.md
 │   └── fab-bundle-strategy.md
+├── worldbuilder-templates/
+│   ├── README.md
+│   ├── docs/
+│   └── WorldBuilderTemplates/
 ├── worldbuilder-audit-convert/
 │   ├── README.md
 │   ├── CHANGELOG.md

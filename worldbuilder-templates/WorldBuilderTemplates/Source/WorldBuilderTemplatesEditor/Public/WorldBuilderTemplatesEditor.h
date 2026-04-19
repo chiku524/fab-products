@@ -7,12 +7,12 @@
 class FSpawnTabArgs;
 class SDockTab;
 
-class FWorldBuilderAuditConvertEditorModule : public IModuleInterface
+class FWorldBuilderTemplatesEditorModule : public IModuleInterface
 {
 public:
 	virtual void StartupModule() override;
 	virtual void ShutdownModule() override;
 
 private:
-	TSharedRef<SDockTab> SpawnWorldBuilderTab(const FSpawnTabArgs& Args);
+	TSharedRef<SDockTab> SpawnWorldBuilderTemplatesTab(const FSpawnTabArgs& Args);
 };
