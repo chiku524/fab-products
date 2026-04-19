@@ -1,5 +1,9 @@
 # Installation
 
+## Plugin icon (editor)
+
+The **Plugins** browser shows a thumbnail when **`Resources/Icon128.png`** (128×128 PNG) ships next to the `.uplugin` file. If that file is missing, Unreal uses a generic default icon.
+
 ## Requirements
 
 - **Unreal Engine:** **5.4 or newer** within Unreal Engine 5.x. Use the plugin package **built for your exact engine version** (same major.minor line as your editor, e.g. 5.4.x with 5.4.x).
@@ -9,7 +13,7 @@
 ## Install steps
 
 1. **Download** the plugin zip for your engine version from Fab (do not mix engine versions).
-2. **Extract** the archive. You should see a folder named `WorldBuilderAuditConvert` containing `WorldBuilderAuditConvert.uplugin` and a `Source` directory.
+2. **Extract** the archive. You should see a folder named `WorldBuilderAuditConvert` containing `WorldBuilderAuditConvert.uplugin`, a `Source` directory, and (for the editor icon) `Resources/Icon128.png`.
 3. **Copy** `WorldBuilderAuditConvert` into your project’s `Plugins` folder:
    - `YourProject/Plugins/WorldBuilderAuditConvert/`
    - Create `Plugins` at the project root if it does not exist.
