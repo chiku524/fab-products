@@ -1,5 +1,28 @@
 # Scripts — Level Selection Sets
 
+## `generate-ue-project-files.ps1` (Windows — no Explorer right‑click needed)
+
+Regenerates **Visual Studio** `.sln` / project files for **any** Unreal `.uproject` — same as **Generate Visual Studio project files** when that item is missing from File Explorer.
+
+**Prerequisites:** Unreal Engine installed (Epic Launcher). The script uses `Engine\Binaries\Win64\UnrealVersionSelector.exe`.
+
+From **PowerShell** (replace paths with yours):
+
+```powershell
+cd path\to\fab-products\level-selection-sets\scripts
+.\generate-ue-project-files.ps1 -UProjectPath "C:\Users\You\Documents\Unreal Projects\MyGame\MyGame.uproject"
+```
+
+Optional: pin the engine install explicitly (if you have several versions):
+
+```powershell
+.\generate-ue-project-files.ps1 -UProjectPath "C:\path\to\MyGame.uproject" -EngineRoot "C:\Program Files\Epic Games\UE_5.7"
+```
+
+Then open the generated `.sln` in Visual Studio and build **Development Editor**.
+
+---
+
 ## `package-plugin.ps1` (recommended on Windows)
 
 Packages the plugin with Epic’s **RunUAT BuildPlugin** so you get a clean output folder per engine line (Fab upload after QA).

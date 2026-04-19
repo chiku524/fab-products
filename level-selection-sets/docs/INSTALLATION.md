@@ -13,15 +13,25 @@
 3. **Copy** `LevelSelectionSets` into your project’s `Plugins` folder:
   - `YourProject/Plugins/LevelSelectionSets/`
   - Create `Plugins` at the project root if it does not exist.
-4. **Regenerate** project files (see **note** below if you do not see this menu):
-   - Open **Windows File Explorer** and go to the folder that contains **`YourProject.uproject`** (the real path on disk, e.g. under **Documents/Unreal Projects/**).
-   - **Right‑click the `.uproject` file** (the file icon, not the folder) → **Generate Visual Studio project files**.
-   - On **Windows 11**, if that line is missing, open the **full** context menu (**Show more options** / Shift+F10, or Shift+right‑click) and look again—shell extensions sometimes only appear on the classic menu.
-   - **Alternative (command line):** from PowerShell or CMD, run **`UnrealVersionSelector.exe`** with your engine and project path (replace the engine folder with yours):
+4. **Regenerate** project files (pick one):
+   - **Recommended (CLI):** from PowerShell:
+
+     ```powershell
+     cd path\to\fab-products\level-selection-sets\scripts
+     .\generate-ue-project-files.ps1 -UProjectPath "C:\full\path\to\YourProject.uproject"
+     ```
+
+     Optional: `-EngineRoot "C:\Program Files\Epic Games\UE_5.7"` if you have several engines. See [`scripts/README.md`](../scripts/README.md).
+
+   - **Or — File Explorer:** **right‑click the `.uproject` file** → **Generate Visual Studio project files** (on Windows 11, try **Show more options** / Shift+right‑click if missing).
+
+   - **Or — one-liner:**
 
      `"C:\Program Files\Epic Games\UE_5.7\Engine\Binaries\Win64\UnrealVersionSelector.exe" /projectfiles "C:\full\path\to\YourProject.uproject"`
 
-   Using **VS Code / Cursor’s** file tree to right‑click often **does not** show Epic’s entry; use Explorer or the command above.
+   Cursor/VS Code’s sidebar usually **does not** show Epic’s menu; use PowerShell or Explorer.
+
+   **Restore the Explorer right‑click:** set **default app for `.uproject`** to Unreal ( **Settings → Apps → Default apps → Choose defaults by file type** ), or **Verify** the engine in **Epic Games Launcher → Library**. Reinstalling Epic Launcher or the engine sometimes restores shell extensions.
 5. **Build** the editor target (Development Editor) so the plugin module compiles.
 6. **Launch** the Unreal Editor and open your project.
 7. Confirm the plugin is enabled: **Edit → Plugins → Level Selection Sets** (enable if prompted) and restart the editor if asked.
