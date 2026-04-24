@@ -1,0 +1,19 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.7",
+	"Category": "",
+	"Description": "Level Selection Sets sample project: minimal C++ game module with the editor plugin embedded at Plugins/LevelSelectionSets (UE 5.4+).",
+	"Modules": [
+		{
+			"Name": "LevelSelectionSetsDemo",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "LevelSelectionSets",
+			"Enabled": true
+		}
+	]
+}

@@ -12,6 +12,7 @@ The following are included for **Fab listing and customer delivery**:
 
 | Deliverable | Location |
 |-------------|----------|
+| Monorepo publisher index (all products) | [`../docs/fab-listing-index.md`](../docs/fab-listing-index.md) |
 | Master doc index | [`DOCUMENTATION.md`](DOCUMENTATION.md) |
 | Installation | [`docs/INSTALLATION.md`](docs/INSTALLATION.md) |
 | User guide | [`docs/USER_GUIDE.md`](docs/USER_GUIDE.md) |

@@ -24,6 +24,9 @@ Build/
 # Cursor IDE (local)
 .cursor/
 
+# Local Fab RunUAT output (see scripts/build-fab-marketplace-drops-ue57.ps1)
+fab-marketplace-drops/
+
 # OS
 .DS_Store
 Thumbs.db

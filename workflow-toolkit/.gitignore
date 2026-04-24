@@ -1,0 +1,4 @@
+# RunUAT packaged plugin (reproducible; see scripts/package-plugin.ps1)
+dist/
+# Legacy name — do not commit local package drops here
+_plugin_build_out/

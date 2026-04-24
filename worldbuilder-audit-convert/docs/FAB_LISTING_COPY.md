@@ -4,11 +4,13 @@ Use with [MEDIA.md](MEDIA.md) and [PACKAGING_FOR_FAB.md](PACKAGING_FOR_FAB.md) w
 
 ## Product identity
 
-| Field | Text |
-|-------|------|
-| **Product title** | WorldBuilder Audit & Convert |
+
+| Field                  | Text                                                                      |
+| ---------------------- | ------------------------------------------------------------------------- |
+| **Product title**      | WorldBuilder Audit & Convert                                              |
 | **Subtitle / tagline** | Batch scene cleanup and smart instancing for faster environment workflows |
-| **Primary category** | Tools & Plugins → Engine Tools (or closest Fab equivalent) |
+| **Primary category**   | Tools & Plugins → Engine Tools (or closest Fab equivalent)                |
+
 
 ## Short description (Fab short field)
 
@@ -46,7 +48,7 @@ Unreal Engine, plugin, world building, level design, environment art, optimizati
 - Batch convert eligible groups toward ISM/HISM with configurable presets  
 - Dry-run preview and session-safe workflows  
 - Export audit results to CSV or JSON  
-- Built for large environment passes and team handoff  
+- Built for large environment passes and team handoff
 
 ## Technical summary (technical details / description)
 
@@ -56,7 +58,7 @@ Unreal Engine, plugin, world building, level design, environment art, optimizati
 - **Engine compatibility:** UE **5.4 and newer** (5.x) — **separate downloadable packages per engine minor line** you publish  
 - **Dependencies:** Engine-only; does not require other marketplace plugins  
 - **Documentation:** Included (`DOCUMENTATION.md` and `docs/` in product package)  
-- **Example project:** Linked separately from the listing (not embedded in the plugin zip) — see `example-project/README.md`  
+- **Example project:** Linked separately from the listing (not embedded in the plugin zip) — see `example-project/README.md`
 
 ## Support blurb (listing support field)
 
@@ -65,3 +67,81 @@ Support: `nico.builds@outlook.com` — include engine version, plugin version, a
 ## Version line for store
 
 **Current version:** 1.0.0 — see `CHANGELOG.md`.
+
+---
+
+## Fab portal — full listing form (all Fab UI fields)
+
+**Checklist** for the Fab **create / edit listing** form. Long reference: `**[../../docs/fab-portal-listing-fields.md](../../docs/fab-portal-listing-fields.md)`**. Thumbnails: [MEDIA.md](MEDIA.md), [monorepo art](../../docs/fab-listing-media/worldbuilder-audit-convert/).
+
+### Product information
+
+
+| Field              | Notes                                                                |
+| ------------------ | -------------------------------------------------------------------- |
+| **Title** *        | **Product title** in **Product identity**; portal cap (e.g. 0 / 80). |
+| **Description** *  | **Short** + **Long description** in this file.                       |
+| **Product type** * | **Tools & Plugins**.                                                 |
+| **Category** *     | **Primary category**; choose in portal.                              |
+
+
+### License type & price
+
+
+| Field                                   | Notes                                                |
+| --------------------------------------- | ---------------------------------------------------- |
+| **License type** *                      | **Standard (Free or Paid)** or **CC BY 4.0 (Free)**. |
+| **UEFN - Reference only price** *       | If shown.                                            |
+| **Personal** / **Professional price** * | USD.                                                 |
+
+
+*Discounts may apply after **30 days** live (portal).*
+
+### Tags
+
+- **Tags** * (e.g. 0 / 25) — align with **Keywords**.
+
+### Thumbnail
+
+- **Formats** `.jpeg` / `.jpg` / `.png` · **Min** e.g. **1920×1080** · **Max** e.g. **3 MB**
+
+### Media gallery
+
+- **≥ 1** file required where stated; up to **24** files (images/3D per portal).
+
+### Epic Developer Community forum post
+
+- **No** *or* **Yes, create a forum post**.
+
+### Mature content
+
+- **No** *or* **Yes** (per guidelines link).
+
+### Disallow use by Generative AI Programs
+
+- Portal **NoAI**-style options.
+
+### Use of generative AI in creation of this product
+
+- **No** *or* **Yes** (partly or fully).
+
+### Promotional content
+
+- **Includes promotional content** if applicable.
+
+### FAQs
+
+- **+** to add.
+
+### Unreal Engine version
+
+
+| Field                             | Notes                                    |
+| --------------------------------- | ---------------------------------------- |
+| **Version title** * (e.g. 0 / 30) | e.g. `1.0.0 Win64`                       |
+| **Project file link** *           | `https://` to hosted zip / Fab download. |
+| **Supported engine version** *    | e.g. **5.4+** matching the package.      |
+| **Supported target platforms** *  | e.g. **Editor Win64** (v1).              |
+| **Version notes**                 | **CHANGELOG** pointer.                   |
+
+

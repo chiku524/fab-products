@@ -1,6 +1,6 @@
 # Verification (publisher QA)
 
-For **step-by-step** testing instructions, see `**[TESTING.md](TESTING.md)`**.
+For **step-by-step** testing instructions, see **[TESTING.md](TESTING.md)**.
 
 Repeat this checklist **once per packaged plugin build** (each engine minor line you support), using a **clean** C++ or Blank project and the **packaged** plugin from `RunUAT` (not only your dev copy), unless you are debugging source.
 

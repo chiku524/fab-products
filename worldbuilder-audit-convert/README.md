@@ -6,12 +6,17 @@ Unreal Engine editor plugin for [Fab](https://www.fab.com/) — **WorldBuilder A
 
 This folder is one **product** inside the [fab-products monorepo](../README.md).
 
+**Repository folder** is **`worldbuilder-audit-convert`** (some docs may say “audit converter” — same product). The Fab listing title is **WorldBuilder Audit & Convert** (matches `WorldBuilderAuditConvert.uplugin`).
+
+**Bulk Win64 5.7 build:** this plugin is included in [`../scripts/build-fab-marketplace-drops-ue57.ps1`](../scripts/build-fab-marketplace-drops-ue57.ps1) (output `5-wbac\WorldBuilderAuditConvert-UE5.7-Win64` on the default short path).
+
 ## Listing-ready package
 
 The following are included for **Fab listing and customer delivery**:
 
 | Deliverable | Location |
 |-------------|----------|
+| Monorepo publisher index (all products) | [`../docs/fab-listing-index.md`](../docs/fab-listing-index.md) |
 | Master doc index | [`DOCUMENTATION.md`](DOCUMENTATION.md) |
 | Installation | [`docs/INSTALLATION.md`](docs/INSTALLATION.md) |
 | User guide | [`docs/USER_GUIDE.md`](docs/USER_GUIDE.md) |

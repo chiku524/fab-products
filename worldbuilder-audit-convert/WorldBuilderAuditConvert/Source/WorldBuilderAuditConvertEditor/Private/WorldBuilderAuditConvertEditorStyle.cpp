@@ -2,9 +2,9 @@
 
 #include "WorldBuilderAuditConvertEditorStyle.h"
 
+#include "Brushes/SlateImageBrush.h"
 #include "Interfaces/IPluginManager.h"
 #include "Styling/SlateStyle.h"
-#include "Styling/SlateStyleMacros.h"
 #include "Styling/SlateStyleRegistry.h"
 
 static TSharedPtr<FSlateStyleSet> StyleSet;
@@ -35,8 +35,12 @@ void FWorldBuilderAuditConvertEditorStyle::Register()
 	StyleSet->SetContentRoot(Plugin->GetBaseDir() / TEXT("Resources"));
 
 	const FVector2D MenuIcon(16.0, 16.0);
-	StyleSet->Set(TabIconName, new IMAGE_BRUSH(TEXT("Icon128"), MenuIcon));
-	StyleSet->Set(TabIconSmallName, new IMAGE_BRUSH(TEXT("Icon128"), MenuIcon));
+	StyleSet->Set(
+		TabIconName,
+		new FSlateImageBrush(StyleSet->RootToContentDir(TEXT("Icon128"), TEXT(".png")), MenuIcon));
+	StyleSet->Set(
+		TabIconSmallName,
+		new FSlateImageBrush(StyleSet->RootToContentDir(TEXT("Icon128"), TEXT(".png")), MenuIcon));
 
 	FSlateStyleRegistry::RegisterSlateStyle(*StyleSet);
 }

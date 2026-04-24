@@ -1,0 +1,19 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.7",
+	"Category": "",
+	"Description": "Workflow Toolkit sample project: minimal C++ game module with the plugin embedded at Plugins/WorkflowToolkit (editor + runtime, UE 5.4+).",
+	"Modules": [
+		{
+			"Name": "WorkflowToolkitDemo",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "WorkflowToolkit",
+			"Enabled": true
+		}
+	]
+}

@@ -4,10 +4,13 @@
 
 | Role | Start here |
 |------|----------------|
+| **Master index** | [`DOCUMENTATION.md`](DOCUMENTATION.md) |
 | **Publisher** (you) | [`docs/PUBLISHER_ASSEMBLY.md`](docs/PUBLISHER_ASSEMBLY.md) and [`scripts/stage-bundle.ps1`](scripts/stage-bundle.ps1) |
 | **Testing** (staging & zips) | [`docs/TESTING.md`](docs/TESTING.md) |
 | **Buyer** (post on Fab) | [`docs/BUYER_GUIDE.md`](docs/BUYER_GUIDE.md) |
 | **Fab listing text** | [`docs/FAB_LISTING_COPY.md`](docs/FAB_LISTING_COPY.md) |
+| **Support** (bundle + component pointers) | [`docs/SUPPORT.md`](docs/SUPPORT.md) |
+| **Listing media** | [`docs/MEDIA.md`](docs/MEDIA.md) |
 
 ## What’s in the bundle (components)
 
@@ -24,3 +27,7 @@
 ## License
 
 [`LICENSE`](LICENSE) — per-product licenses still apply inside each downloadable.
+
+## No Unreal project (`.uproject`) in this folder
+
+**Expected.** The **Immersive Labs UE bundle** is a **publisher meta-product**: scripts, staging, and **documentation** for selling **other** products together. Real engine projects and zips are produced in **`level-selection-sets`**, **`worldbuilder-audit-convert`**, etc., and staged with [`scripts/stage-bundle.ps1`](scripts/stage-bundle.ps1). This directory does not need its own sample `.uproject`—use the per-component product folders (e.g. [`../harbor-suite/Harbor/`](../harbor-suite/Harbor/)) when you want to build or test a project.

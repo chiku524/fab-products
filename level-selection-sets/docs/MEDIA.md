@@ -23,3 +23,7 @@ Fab listings convert better with clear **workflow** and **UI-visible** proof. Pr
 ## Safe dimensions
 
 Follow **Fab’s current image and video specifications** in the publisher portal when uploading (sizes change; verify at submission time).
+
+## Placeholder art (repo)
+
+**AI-generated** images: [`../../docs/fab-listing-media/level-selection-sets/`](../../docs/fab-listing-media/level-selection-sets/) (`thumbnail.png`, `gallery-0*.png`). Optional replacement with real editor shots per portal rules.

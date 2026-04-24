@@ -1,0 +1,19 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.7",
+	"Category": "",
+	"Description": "Harbor Suite sample C++ project: editor workflow and Harbor Suite plugin (not a full game).",
+	"Modules": [
+		{
+			"Name": "Harbor",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "HarborSuite",
+			"Enabled": true
+		}
+	]
+}

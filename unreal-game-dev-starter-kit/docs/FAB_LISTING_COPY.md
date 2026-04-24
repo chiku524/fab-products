@@ -61,3 +61,67 @@ Support: `nico.builds@outlook.com` — include kit version and section name. See
 ## Version line for store
 
 **Current version:** 1.0.0 — see `CHANGELOG.md`.
+
+---
+
+## Fab portal — full listing form (all Fab UI fields)
+
+**Checklist** for the Fab listing (this product is **documentation + templates**, not a code plugin). Full notes: **[`../../docs/fab-portal-listing-fields.md`](../../docs/fab-portal-listing-fields.md)**. [MEDIA.md](MEDIA.md) · [art](../../docs/fab-listing-media/unreal-game-dev-starter-kit/).
+
+### Product information
+
+| Field | Notes |
+|--------|--------|
+| **Title** * | **Product title** in **Product identity** (0 / 80 or portal cap). |
+| **Description** * | **Short** + **Long description**. |
+| **Product type** * | Choose the portal option for **documentation / learning** (or closest) — *not* “plugin binary.” |
+| **Category** * | **Primary category**; match Fab taxonomy for doc packs. |
+
+### License & price
+
+- **License type** * (Standard, CC BY, etc.)  
+- **UEFN - Reference only** / **Personal** / **Professional** — set per your pricing.  
+- *30-day rule for discounts per portal.*
+
+### Tags
+
+- **Tags** * (e.g. 0 / 25) — from **Keywords**.
+
+### Thumbnail
+
+- **Formats** · **min resolution** · **max size** (portal: often **1920×1080** min, **3 MB** max as listed).
+
+### Media gallery
+
+- **At least 1**; up to **24** (e.g. doc screenshots, diagram exports).
+
+### Forum post
+
+- **No** *or* **Yes, create a forum post**.
+
+### Mature content
+
+- **No** (typical) *or* **Yes**.
+
+### Generative AI (disallow + disclosure)
+
+- **Disallow** use by generative AI (NoAI) — per product policy.  
+- **Created with** generative AI: **No** *or* **Yes** (if e.g. listing images are AI).
+
+### Promotional content
+
+- **Includes promotional content** if applicable.
+
+### FAQs
+
+- **+** to add (e.g. “Is this a plugin?”, “UE version?”).
+
+### Unreal Engine version (if the portal still adds this row for non-plugin products)
+
+| Field | Notes |
+|--------|--------|
+| **Version title** * | e.g. `Starter Kit 1.0.0` |
+| **Project file link** * | `https://` to the **zip** / download host. |
+| **Supported engine version** * | e.g. **5.4+ (5.x)** (conceptual; no version-locked code). |
+| **Supported target platforms** * | N/A or **N/A (documentation pack)** as portal allows. |
+| **Version notes** | No `.uplugin`; see **Technical summary** above. |

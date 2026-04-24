@@ -1,0 +1,19 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.7",
+	"Category": "",
+	"Description": "World Builder Templates sample project: minimal C++ game module with the plugin embedded at Plugins/WorldBuilderTemplates (UE 5.7+).",
+	"Modules": [
+		{
+			"Name": "WorldBuilderTemplatesDemo",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "WorldBuilderTemplates",
+			"Enabled": true
+		}
+	]
+}

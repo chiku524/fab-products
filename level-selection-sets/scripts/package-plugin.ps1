@@ -16,6 +16,7 @@
 
 .PARAMETER OutputParent
   Directory where the packaged plugin folder will be created. Default: dist\ under this product.
+  Use a short path (e.g. C:\ilfab-ue57\lss) if RunUAT fails with Windows MAX_PATH under a deep repo clone.
 
 .EXAMPLE
   .\package-plugin.ps1 -EngineRoot "C:\Program Files\Epic Games\UE_5.4"

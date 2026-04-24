@@ -23,3 +23,7 @@ Fab listings convert better with clear **before/after** and **UI-visible** proof
 ## Safe dimensions
 
 Follow **Fab’s current image and video specifications** in the publisher portal when uploading (sizes change; verify at submission time).
+
+## Placeholder art (repo)
+
+**AI-generated** images: [`../../docs/fab-listing-media/worldbuilder-audit-convert/`](../../docs/fab-listing-media/worldbuilder-audit-convert/) (`thumbnail.png`, `gallery-0*.png`). Replace with in-editor audit/convert UI when you want authentic listing proof.

@@ -4,12 +4,13 @@ A **Fab-ready documentation and template pack** for teams and solo developers st
 
 **Positioning:** “Ship faster with fewer avoidable mistakes—structure, workflow, and discipline before you drown in assets.”
 
-This folder is one **product** inside the [fab-products monorepo](../README.md).
+This folder is one **product** inside the [fab-products monorepo](../README.md). **Publisher checklist** (all products): [`../docs/fab-listing-index.md`](../docs/fab-listing-index.md).
 
 ## What’s included
 
 | Deliverable | Location |
 |-------------|----------|
+| Monorepo publisher index (all products) | [`../docs/fab-listing-index.md`](../docs/fab-listing-index.md) |
 | Master doc index | [`DOCUMENTATION.md`](DOCUMENTATION.md) |
 | Testing (integrity & optional apply) | [`docs/TESTING.md`](docs/TESTING.md) |
 | Installation / how to use the kit | [`docs/INSTALLATION.md`](docs/INSTALLATION.md) |
@@ -32,6 +33,10 @@ This folder is one **product** inside the [fab-products monorepo](../README.md).
 | New to Unreal workflows? | [`../docs/unreal-plugin-testing-beginner.md`](../docs/unreal-plugin-testing-beginner.md) *(plugins only; this kit is docs)* |
 
 **Publisher:** **Immersive Labs** · **nico.builds@outlook.com** (see [`docs/SUPPORT.md`](docs/SUPPORT.md)). Match your Fab listing to the same contact details.
+
+## Why there is no `.uproject` here
+
+**Expected.** This product is **documentation and text templates** only—it is **not** a game project and does **not** ship a plugin binary. You apply the kit to **your** existing or new Unreal project (any path you create). The optional [example-project/README.md](example-project/README.md) explains how you might add a *separate* demo for marketing, still outside this zip. Do **not** expect to double-click a `.uproject` inside the starter kit folder.
 
 ## Audience
 

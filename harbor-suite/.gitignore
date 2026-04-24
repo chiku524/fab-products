@@ -1,0 +1,12 @@
+# Packaged plugin output (see scripts/package-plugin.ps1)
+dist/
+
+# Local Unreal artifacts (sample project)
+Harbor/Binaries/
+Harbor/Intermediate/
+Harbor/Saved/
+Harbor/Build/
+Harbor/DerivedDataCache/
+Harbor/.vs/
+*.VC.db
+*.opensdf

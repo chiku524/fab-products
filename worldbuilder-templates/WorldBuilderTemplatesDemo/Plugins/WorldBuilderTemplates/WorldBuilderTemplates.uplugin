@@ -1,0 +1,27 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "World Builder Templates",
+	"Description": "Editor plugin (UE 5.7): pick ready-made world maps shipped with the plugin as a starting point—open as a template (untitled) or load the map directly. Adjust EngineVersion in the .uplugin when retargeting other engine minor lines.",
+	"Category": "Editor",
+	"CreatedBy": "Immersive Labs",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "mailto:nico.builds@outlook.com",
+	"EngineVersion": "5.7.0",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "WorldBuilderTemplatesEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	]
+}

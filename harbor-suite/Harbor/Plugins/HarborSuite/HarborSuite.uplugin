@@ -1,0 +1,32 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "Harbor Suite",
+	"Description": "Small-team editor workflow suite for Unreal Engine 5.7+: Charts (guided passes), Stowage (scene housekeeping), Shakedown (PIE iteration), and Clearance (lightweight release signals). Includes optional runtime helpers for playtest loops.",
+	"Category": "Editor",
+	"CreatedBy": "Immersive Labs",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "mailto:nico.builds@outlook.com",
+	"EngineVersion": "5.7.0",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "HarborSuiteRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "HarborSuiteEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	]
+}

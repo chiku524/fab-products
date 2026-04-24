@@ -42,3 +42,66 @@ Unreal Engine, Fab, bundle, plugin, level design, world building, workflow, docu
 ## Support blurb
 
 Support: nico.builds@outlook.com — include engine **exact** version, which downloadable you used, and steps to reproduce.
+
+---
+
+## Fab portal — full listing form (all Fab UI fields)
+
+**Checklist** for the bundle listing (see also [PUBLISHER_ASSEMBLY.md](PUBLISHER_ASSEMBLY.md)). Long reference: **[`../../docs/fab-portal-listing-fields.md`](../../docs/fab-portal-listing-fields.md)**. [MEDIA.md](MEDIA.md) · [art](../../docs/fab-listing-media/immersive-labs-ue-bundle/).
+
+### Product information
+
+| Field | Notes |
+|--------|--------|
+| **Title** * | **Product title** in **Product identity** (0 / 80 or cap). |
+| **Description** * | **Short** + **Long description**; mention **multi-download** clearly. |
+| **Product type** * | **Tools & Plugins** and/or **Learning** — pick what the portal allows for bundles. |
+| **Category** * | As in **Product identity**; may span tools + learning. |
+
+### License & price
+
+- **License type** *  
+- **UEFN - Reference only price** * · **Personal** * · **Professional** * (bundle pricing)  
+- *Discount timing per portal (e.g. 30 days).*
+
+### Tags
+
+- **Tags** * (e.g. 0 / 25) — from **Keywords**.
+
+### Thumbnail
+
+- **.jpg / .jpeg / .png** · min e.g. **1920×1080** · max e.g. **3 MB**
+
+### Media gallery
+
+- **1–24** files (show components or all-in-one graphic).
+
+### Epic Developer Community forum post
+
+- **No** *or* **Yes, create a forum post**.
+
+### Mature content
+
+- **No** *or* **Yes**
+
+### Disallow by Generative AI / Created with generative AI
+
+- Two separate controls; answer per your policy and assets.
+
+### Promotional content
+
+- **Includes promotional content** (checkbox) if the bundle page promotes other brands/IPs as defined by the portal.
+
+### FAQs
+
+- **+** (e.g. which zip for which engine, bundle vs individual products).
+
+### Unreal Engine version (per downloadable or one summary row per portal)
+
+| Field | Notes |
+|--------|--------|
+| **Version title** * | e.g. `5.7 Win64 LSS + WBAC + Docs` (≤ portal cap) |
+| **Project file link** * | `https://` to each file or a landing page. |
+| **Supported engine version** * | e.g. **5.4+** minimum. |
+| **Supported target platforms** * | e.g. **Editor Win64** for plugins. |
+| **Version notes** | [stage-bundle](scripts/stage-bundle.ps1), multiple zips, starter kit is docs-only. |

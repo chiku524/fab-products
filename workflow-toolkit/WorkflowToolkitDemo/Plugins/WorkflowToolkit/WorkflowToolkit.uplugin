@@ -1,0 +1,32 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "Workflow Toolkit",
+	"Description": "Editor panel and Editor subsystem for one-click shortcuts, plus a runtime Game Instance subsystem for PIE/dev workflows (console, pause, time dilation, teleport, view focus). Requires UE 5.4+.",
+	"Category": "Editor",
+	"CreatedBy": "Immersive Labs",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "mailto:nico.builds@outlook.com",
+	"EngineVersion": "5.7.0",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "WorkflowToolkitRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "WorkflowToolkitEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	]
+}

@@ -20,3 +20,7 @@ Documentation products sell better when buyers **see structure** and **trust** t
 - If you localize, state languages in the listing.
 
 Follow **Fab’s current image and video specs** in the publisher portal.
+
+## Placeholder art (repo)
+
+**AI-generated** images: [`../../docs/fab-listing-media/unreal-game-dev-starter-kit/`](../../docs/fab-listing-media/unreal-game-dev-starter-kit/) (`thumbnail.png`, `gallery-0*.png`). For documentation-focused listings, in-product Markdown/tree screenshots can replace these.

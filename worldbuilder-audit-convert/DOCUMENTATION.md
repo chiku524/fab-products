@@ -20,3 +20,5 @@ Use this file as the **primary documentation index** included with the Fab downl
 **Fab compliance:** Publisher **Immersive Labs**; support **nico.builds@outlook.com** (`docs/SUPPORT.md`). **`SupportURL`** in `WorldBuilderAuditConvert.uplugin` points to the same mailbox. After Fab assigns your product page, add the **`FabURL`** field to `WorldBuilderAuditConvert.uplugin` per [Fab Technical Requirements](https://support.fab.com/s/article/FAB-TECHNICAL-REQUIREMENTS). Add **`DocsURL`** when you host public documentation.
 
 **Example project:** Host a separate example project (plugin not embedded) and link it from the listing; see [example-project/README.md](example-project/README.md).
+
+**Monorepo:** [Publisher index (all products)](../docs/fab-listing-index.md) · [listing art placeholders](../docs/fab-listing-media/worldbuilder-audit-convert/) (see [docs/MEDIA.md](docs/MEDIA.md)). Internal planning docs: [build-brief.md](docs/build-brief.md), [product-package.md](docs/product-package.md).

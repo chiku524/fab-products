@@ -19,5 +19,9 @@ Primary index for the Fab download. Link this file from the listing’s technica
 | [CHANGELOG.md](CHANGELOG.md) | All | Version history |
 | [LICENSE](LICENSE) | All | License terms |
 | [templates/](templates/) | Customers | Copy-paste files |
+| [build-brief.md](docs/build-brief.md) | Internal | Product positioning / scope notes |
+| [product-package.md](docs/product-package.md) | Internal | Pack-level naming and deliverables |
 
 **Fab compliance:** Publisher **Immersive Labs**; support **nico.builds@outlook.com** (`docs/SUPPORT.md`). Match the Fab listing to those details. This kit is documentation-only (no `.uplugin`).
+
+**Monorepo:** [Publisher index (all products)](../docs/fab-listing-index.md) · [listing art placeholders](../docs/fab-listing-media/unreal-game-dev-starter-kit/) (see [docs/MEDIA.md](docs/MEDIA.md)).

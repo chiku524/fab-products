@@ -4,11 +4,13 @@ Replace bracketed placeholders. Use with [MEDIA.md](MEDIA.md) and [PACKAGING_FOR
 
 ## Product identity
 
-| Field | Text |
-|-------|------|
-| **Product title** | Level Selection Sets |
-| **Subtitle / tagline** | Named selection bookmarks for faster level iteration |
-| **Primary category** | Tools & Plugins → Engine Tools (or closest Fab equivalent) |
+
+| Field                  | Text                                                       |
+| ---------------------- | ---------------------------------------------------------- |
+| **Product title**      | Level Selection Sets                                       |
+| **Subtitle / tagline** | Named selection bookmarks for faster level iteration       |
+| **Primary category**   | Tools & Plugins → Engine Tools (or closest Fab equivalent) |
+
 
 ## Short description (Fab short field)
 
@@ -55,7 +57,7 @@ Unreal Engine, plugin, level design, selection, outliner, editor tools, workflow
 - **Engine compatibility:** UE **5.4 and newer** (5.x) — **separate downloadable packages per engine minor line** you publish (Fab buyers use the zip that matches their editor)  
 - **Dependencies:** Engine-only; does not require other marketplace plugins  
 - **Documentation:** Included (`DOCUMENTATION.md` and `docs/` in product package)  
-- **Example project:** Linked separately from the listing (not embedded in the plugin zip) — see `example-project/README.md`  
+- **Example project:** Linked separately from the listing (not embedded in the plugin zip) — see `example-project/README.md`
 
 ## Support blurb (listing support field)
 
@@ -64,3 +66,90 @@ Support: `nico.builds@outlook.com` — include engine version, plugin version, a
 ## Version line for store
 
 **Current version:** 1.0.0 — see `CHANGELOG.md`.
+
+---
+
+## Fab portal — full listing form (all Fab UI fields)
+
+Use this as a **checklist** for the [Fab](https://www.fab.com/) **create / edit listing** form. Details: `**[../../docs/fab-portal-listing-fields.md](../../docs/fab-portal-listing-fields.md)`**. Listing art: [fab-listing-media](../../docs/fab-listing-media/level-selection-sets/).
+
+### Product information
+
+
+| Field              | Notes                                                                                   |
+| ------------------ | --------------------------------------------------------------------------------------- |
+| **Title** *        | **Product title** in **Product identity** above. Character cap in portal (e.g. 0 / 80). |
+| **Description** *  | **Short** + **Long description** as separate fields if the portal splits them.          |
+| **Product type** * | e.g. **Tools & Plugins**.                                                               |
+| **Category** *     | **Primary category** in **Product identity**; pick closest in portal.                   |
+
+
+### License type & price
+
+
+| Field                             | Notes                                                |
+| --------------------------------- | ---------------------------------------------------- |
+| **License type** *                | **Standard (Free or Paid)** or **CC BY 4.0 (Free)**. |
+| **UEFN - Reference only price** * | If shown.                                            |
+| **Personal price** *              | USD.                                                 |
+| **Professional price** *          | USD.                                                 |
+
+
+*Discounts may apply only after **30 days** live (see portal).*
+
+### Tags
+
+
+| Field      | Notes                                                         |
+| ---------- | ------------------------------------------------------------- |
+| **Tags** * | From **Keywords / search tags**; cap in portal (e.g. 0 / 25). |
+
+
+### Thumbnail image
+
+
+| Constraint     | Notes                   |
+| -------------- | ----------------------- |
+| Formats        | `.jpeg`, `.jpg`, `.png` |
+| Min resolution | e.g. **1920×1080**      |
+| Max size       | e.g. **3 MB**           |
+
+
+### Media gallery
+
+- At least **1** file; up to **24** (images and/or 3D where allowed). [MEDIA.md](MEDIA.md), [monorepo art](../../docs/fab-listing-media/level-selection-sets/).
+
+### Epic Developer Community forum post
+
+- **No, do not create a forum post** *or* **Yes, create a forum post**.
+
+### Mature content
+
+- **No** *or* **Yes** (per **Mature content guidelines** in portal).
+
+### Disallow use by Generative AI Programs
+
+- Per portal; optional **NoAI**-style controls.
+
+### Use of generative artificial intelligence (AI) tools
+
+- **No, it was not partly or fully created with generative AI** *or* **Yes, it was partly or fully…**
+
+### Promotional content
+
+- **Includes promotional content** (checkbox) if applicable.
+
+### FAQs
+
+- **+** to add Q&A.
+
+### Unreal Engine version (per downloadable)
+
+
+| Field                            | Notes                                    |
+| -------------------------------- | ---------------------------------------- |
+| **Version title** *              | e.g. 0 / 30 in portal.                   |
+| **Project file link** *          | `https://` to the plugin / project file. |
+| **Supported engine version** *   | e.g. **5.4+** matching your zip.         |
+| **Supported target platforms** * | e.g. **Editor Win64** (v1).              |
+| **Version notes**                | **Current version** line above.          |

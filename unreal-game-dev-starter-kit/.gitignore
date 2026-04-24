@@ -1,0 +1,4 @@
+# Optional: publisher-built archives or local staging next to the kit
+dist/
+out/
+*.zip

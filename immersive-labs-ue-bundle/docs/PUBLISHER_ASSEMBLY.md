@@ -7,11 +7,13 @@
 
 ## Build matrix (per engine minor line you sell)
 
-For **each** line (e.g. **5.4.x** only at launch):
+**Primary in this monorepo (UE 5.7 Win64):** run [`../../scripts/build-fab-marketplace-drops-ue57.ps1`](../../scripts/build-fab-marketplace-drops-ue57.ps1) from `fab-products` once. It builds **Harbor Suite**, **Level Selection Sets**, **World Builder Templates**, **Workflow Toolkit**, and **WorldBuilder Audit & Convert** to a **short** path (default `C:\ilfab-ue57\...`) to avoid Windows **MAX_PATH** issues, then zips to `fab-marketplace-drops/UE5.7-Win64/`.
 
-1. **`level-selection-sets`** — `scripts/package-plugin.ps1` with that line’s `-EngineRoot` and `-UeVersionLabel`.
-2. **`worldbuilder-audit-convert`** — same pattern.
-3. **`unreal-game-dev-starter-kit`** — zip the **documentation tree** (no engine build). Use `stage-bundle.ps1` or the command in [`scripts/README.md`](../scripts/README.md).
+**Bundle** downloadables: after that build, run **`immersive-labs-ue-bundle/scripts/stage-bundle.ps1`** with **`-MonorepoBuildRoot "C:\ilfab-ue57"`** and **`-UeVersionLabel "5.7"`** (see [scripts README](../scripts/README.md)). It picks **2-lss** and **5-wbac** and zips the starter kit.
+
+**Other engine lines** (e.g. 5.4 only): for each line, run each product’s `package-plugin.ps1` with that engine. Then either copy outputs into the paths `stage-bundle.ps1` expects or run it **without** `-MonorepoBuildRoot` so it uses each product’s **`dist/`** folder.
+
+3. **`unreal-game-dev-starter-kit`** — no engine build; it is included automatically by `stage-bundle.ps1`.
 
 Do **not** merge different engine binaries into **one** plugin zip.
 
