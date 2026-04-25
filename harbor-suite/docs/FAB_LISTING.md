@@ -58,37 +58,45 @@ Use this as a **checklist** when filling the [Fab](https://www.fab.com/) **creat
 
 ### Product information
 
-| Field | Notes |
-|--------|--------|
-| **Title** * | Shown in search; use **Harbor Suite** (or the exact name you will ship). Character cap in portal (e.g. 0 / 80). |
-| **Description** * | Paste from **Positioning** + **Feature bullets** + **Deliverables** above, or a trimmed **Long description** you maintain elsewhere. |
-| **Product type** * | e.g. **Tools & Plugins**. |
-| **Category** * | e.g. **Engine Tools** (choose closest in portal). |
+
+| Field              | Notes                                                                                                                                |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
+| **Title** *        | Shown in search; use **Harbor Suite** (or the exact name you will ship). Character cap in portal (e.g. 0 / 80).                      |
+| **Description** *  | Paste from **Positioning** + **Feature bullets** + **Deliverables** above, or a trimmed **Long description** you maintain elsewhere. |
+| **Product type** * | e.g. **Tools & Plugins**.                                                                                                            |
+| **Category** *     | e.g. **Engine Tools** (choose closest in portal).                                                                                    |
+
 
 ### License type & price
 
-| Field | Notes |
-|--------|--------|
-| **License type** * | e.g. **Standard License (Free or Paid)** or **CC BY 4.0 (Free)**. |
-| **UEFN - Reference only price** * | If shown, set or reset per portal. |
-| **Personal price** * | USD. |
-| **Professional price** * | USD. |
+
+| Field                             | Notes                                                             |
+| --------------------------------- | ----------------------------------------------------------------- |
+| **License type** *                | e.g. **Standard License (Free or Paid)** or **CC BY 4.0 (Free)**. |
+| **UEFN - Reference only price** * | If shown, set or reset per portal.                                |
+| **Personal price** *              | USD.                                                              |
+| **Professional price** *          | USD.                                                              |
+
 
 *Discounts may only apply after the listing has been live **30 days** (confirm in portal).*
 
 ### Tags
 
-| Field | Notes |
-|--------|--------|
+
+| Field      | Notes                                              |
+| ---------- | -------------------------------------------------- |
 | **Tags** * | Discoverability tags; cap in portal (e.g. 0 / 25). |
+
 
 ### Thumbnail image
 
-| Constraint | Portal guidance |
-|-------------|-----------------|
-| Formats | `.jpeg`, `.jpg`, `.png` |
-| Min resolution | e.g. **1920×1080** |
-| Max size | e.g. **3 MB** |
+
+| Constraint     | Portal guidance         |
+| -------------- | ----------------------- |
+| Formats        | `.jpeg`, `.jpg`, `.png` |
+| Min resolution | e.g. **1920×1080**      |
+| Max size       | e.g. **3 MB**           |
+
 
 ### Media gallery
 
@@ -120,10 +128,11 @@ Use this as a **checklist** when filling the [Fab](https://www.fab.com/) **creat
 
 ### Unreal Engine version (one block per line you support)
 
-| Field | Notes |
-|--------|--------|
-| **Version title** * | Short line; cap in portal (e.g. 0 / 30). |
-| **Project file link** * | `https://` to the project file or marketplace download. |
-| **Supported engine version** * | e.g. **5.7** to match the packaged build. |
-| **Supported target platforms** * | e.g. **Editor Win64** (as in **Technical facts**). |
-| **Version notes** | Build ID, `CHANGELOG`, or “use the zip for the exact engine minor line.” |
+
+| Field                            | Notes                                                                    |
+| -------------------------------- | ------------------------------------------------------------------------ |
+| **Version title** *              | Short line; cap in portal (e.g. 0 / 30).                                 |
+| **Project file link** *          | `https://` to the project file or marketplace download.                  |
+| **Supported engine version** *   | e.g. **5.7** to match the packaged build.                                |
+| **Supported target platforms** * | e.g. **Editor Win64** (as in **Technical facts**).                       |
+| **Version notes**                | Build ID, `CHANGELOG`, or “use the zip for the exact engine minor line.” |
